@@ -1,2 +1,7 @@
-# mesogheo
-website for hotel
+# 4th project #
+
+### mesogheo ###
+
+- React
+- Tailwind CSS
+- Typescript
