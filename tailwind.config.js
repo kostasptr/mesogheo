@@ -40,15 +40,22 @@ module.exports = {
     fontSize: {
       'small' : '.625rem',
       'small12' : '.75rem',
+      
     },
     lineHeight: {
+      'smallff': '.625rem',
       'smallf': '.823rem',
+      'small144': '.9rem',
+      'smallfs': '.0.96rem'
     }
   },
   variants: {
     extend: {
-      textDecoration: ['active'],
-    }
+      textDecoration: ['active']
+    },
+    extend: {
+      textColor: ['hover'],
+    },
   },
   plugins: [],
 }
