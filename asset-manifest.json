@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mesogheo/static/css/main.2d0655d2.chunk.css",
-    "main.js": "/mesogheo/static/js/main.faa42cf5.chunk.js",
-    "main.js.map": "/mesogheo/static/js/main.faa42cf5.chunk.js.map",
-    "runtime-main.js": "/mesogheo/static/js/runtime-main.7aef126f.js",
-    "runtime-main.js.map": "/mesogheo/static/js/runtime-main.7aef126f.js.map",
-    "static/js/2.2b2dd4b2.chunk.js": "/mesogheo/static/js/2.2b2dd4b2.chunk.js",
-    "static/js/2.2b2dd4b2.chunk.js.map": "/mesogheo/static/js/2.2b2dd4b2.chunk.js.map",
-    "static/js/3.e77e36a0.chunk.js": "/mesogheo/static/js/3.e77e36a0.chunk.js",
-    "static/js/3.e77e36a0.chunk.js.map": "/mesogheo/static/js/3.e77e36a0.chunk.js.map",
+    "main.css": "/mesogheo/static/css/main.e360ff9a.chunk.css",
+    "main.js": "/mesogheo/static/js/main.2997f6b7.chunk.js",
+    "main.js.map": "/mesogheo/static/js/main.2997f6b7.chunk.js.map",
+    "runtime-main.js": "/mesogheo/static/js/runtime-main.af733ffd.js",
+    "runtime-main.js.map": "/mesogheo/static/js/runtime-main.af733ffd.js.map",
+    "static/js/2.424f1d48.chunk.js": "/mesogheo/static/js/2.424f1d48.chunk.js",
+    "static/js/2.424f1d48.chunk.js.map": "/mesogheo/static/js/2.424f1d48.chunk.js.map",
+    "static/js/3.7e7ec9b9.chunk.js": "/mesogheo/static/js/3.7e7ec9b9.chunk.js",
+    "static/js/3.7e7ec9b9.chunk.js.map": "/mesogheo/static/js/3.7e7ec9b9.chunk.js.map",
     "index.html": "/mesogheo/index.html",
-    "static/css/main.2d0655d2.chunk.css.map": "/mesogheo/static/css/main.2d0655d2.chunk.css.map",
-    "static/js/2.2b2dd4b2.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.2b2dd4b2.chunk.js.LICENSE.txt",
+    "static/css/main.e360ff9a.chunk.css.map": "/mesogheo/static/css/main.e360ff9a.chunk.css.map",
+    "static/js/2.424f1d48.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.424f1d48.chunk.js.LICENSE.txt",
     "static/media/logo-facebook.b8b485c0.svg": "/mesogheo/static/media/logo-facebook.b8b485c0.svg",
     "static/media/logo-instagram2.9ca27e00.png": "/mesogheo/static/media/logo-instagram2.9ca27e00.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7aef126f.js",
-    "static/js/2.2b2dd4b2.chunk.js",
-    "static/css/main.2d0655d2.chunk.css",
-    "static/js/main.faa42cf5.chunk.js"
+    "static/js/runtime-main.af733ffd.js",
+    "static/js/2.424f1d48.chunk.js",
+    "static/css/main.e360ff9a.chunk.css",
+    "static/js/main.2997f6b7.chunk.js"
   ]
 }
