@@ -4,30 +4,62 @@ import Slider from "react-slick";
 // import "slick-carousel/slick/slick-theme.css";
 import room1 from '../images/hero_image.jpg';
 
-export default function SimpleSlider() {
+export default function SimpleSlider(photos) {
   var settings = {
+    className: "col-span-full",
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    pauseOnHover: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // responsive: [
+    //   {
+    //     breakpoint: 1200,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       infinite: true,
+    //       dots: true
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 1025,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2,
+    //       initialSlide: 2
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2
+    //     }
+    //   }
+    //   ]
   };
   return (
     <Slider {...settings}>
-    <div className="grid grid-cols-12 gap-x-2">
-      <div className="col-span-12 w-screen pb-4">
+      {/* photos.forEach((photo) => {
+        return (<div></div>);
+      }); */}
+      <div>
         <img src={room1} alt="dfg"/>
       </div>
-      <div className="col-span-12 w-screen pb-4">
+      <div>
         <img src={room1} alt="dfg"/>
       </div>
-      <div className="col-span-12 w-screen pb-4">
+      <div>
       <img src={room1} alt="dfg"/>
       </div>
-      <div className="col-span-12 w-screen pb-4">
+      <div>
         <img src={room1} alt="dfg"/>
       </div>
-    </div>
     </Slider>
   );
 }
