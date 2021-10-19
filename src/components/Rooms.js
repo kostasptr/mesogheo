@@ -1,11 +1,19 @@
 import React from 'react';
 
-function Rooms() {
+class Rooms extends React.Component {
 
-  return (
-    <div className="App-Rooms">
-    <h1>Rooms</h1>
-    </div>
-  );
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+
+  render() {
+    return (
+      <div className="App-Rooms" ref={this.myRef}>
+      <p>Room 'Arizona' is our cozy nest, has a large bathroom and a private patio where you can enjoy your meals under the warm south Italian sun.</p>
+      </div>
+    );
+  }
 }
+
 export default Rooms;
