@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mesogheo/static/css/main.fc80f76c.chunk.css",
-    "main.js": "/mesogheo/static/js/main.f3224026.chunk.js",
-    "main.js.map": "/mesogheo/static/js/main.f3224026.chunk.js.map",
-    "runtime-main.js": "/mesogheo/static/js/runtime-main.af733ffd.js",
-    "runtime-main.js.map": "/mesogheo/static/js/runtime-main.af733ffd.js.map",
-    "static/js/2.424f1d48.chunk.js": "/mesogheo/static/js/2.424f1d48.chunk.js",
-    "static/js/2.424f1d48.chunk.js.map": "/mesogheo/static/js/2.424f1d48.chunk.js.map",
-    "static/js/3.7e7ec9b9.chunk.js": "/mesogheo/static/js/3.7e7ec9b9.chunk.js",
-    "static/js/3.7e7ec9b9.chunk.js.map": "/mesogheo/static/js/3.7e7ec9b9.chunk.js.map",
+    "main.css": "/mesogheo/static/css/main.a799d733.chunk.css",
+    "main.js": "/mesogheo/static/js/main.acb3ad7c.chunk.js",
+    "main.js.map": "/mesogheo/static/js/main.acb3ad7c.chunk.js.map",
+    "runtime-main.js": "/mesogheo/static/js/runtime-main.7aef126f.js",
+    "runtime-main.js.map": "/mesogheo/static/js/runtime-main.7aef126f.js.map",
+    "static/js/2.e82132a3.chunk.js": "/mesogheo/static/js/2.e82132a3.chunk.js",
+    "static/js/2.e82132a3.chunk.js.map": "/mesogheo/static/js/2.e82132a3.chunk.js.map",
+    "static/js/3.e77e36a0.chunk.js": "/mesogheo/static/js/3.e77e36a0.chunk.js",
+    "static/js/3.e77e36a0.chunk.js.map": "/mesogheo/static/js/3.e77e36a0.chunk.js.map",
     "index.html": "/mesogheo/index.html",
-    "static/css/main.fc80f76c.chunk.css.map": "/mesogheo/static/css/main.fc80f76c.chunk.css.map",
-    "static/js/2.424f1d48.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.424f1d48.chunk.js.LICENSE.txt",
+    "static/css/main.a799d733.chunk.css.map": "/mesogheo/static/css/main.a799d733.chunk.css.map",
+    "static/js/2.e82132a3.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.e82132a3.chunk.js.LICENSE.txt",
     "static/media/hero_image.3f678e98.jpg": "/mesogheo/static/media/hero_image.3f678e98.jpg",
     "static/media/logo-facebook.b8b485c0.svg": "/mesogheo/static/media/logo-facebook.b8b485c0.svg",
     "static/media/logo-instagram2.9ca27e00.png": "/mesogheo/static/media/logo-instagram2.9ca27e00.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.af733ffd.js",
-    "static/js/2.424f1d48.chunk.js",
-    "static/css/main.fc80f76c.chunk.css",
-    "static/js/main.f3224026.chunk.js"
+    "static/js/runtime-main.7aef126f.js",
+    "static/js/2.e82132a3.chunk.js",
+    "static/css/main.a799d733.chunk.css",
+    "static/js/main.acb3ad7c.chunk.js"
   ]
 }
