@@ -1,28 +1,34 @@
 import React from 'react';
-import './Footer.css';
-import ScrollButton from './component/ScrollButton';
+// import { Facebook, Instagram } from 'react-ionicons';
+import facebookIcon from "../images/logo-facebook.svg";
+import instagramIcon from "../images/logo-instagram2.png";
 
 function Footer() {
 
   return (
-    <footer className="App-Footer">
 
-      <div className="flex-footer">
+    <footer className="grid grid-cols-12 px-1 gap-x-2 bg-22_green flex flex-column items-center">
 
-        <div>
-          <p>83-109 Seymour Place <br></br>London<br></br>W1H 4PB<br></br>United Kingdom<br></br></p>
-          <p>(44) 207205-2555<br></br>info@amadeus.com</p>
-          <p><strong>Follow us</strong><br></br>
-            <FontAwesomeIcon icon={faFacebookF} style={{ color: "black" }} size="sm" />&nbsp;
-            <FontAwesomeIcon icon={faInstagram} style={{ color: "black" }} size="sm" />&nbsp;
-            <FontAwesomeIcon icon={faTwitter} style={{ color: "black" }} size="sm" />
-          </p>
-          <br></br>
-          <p className="copyright_notice">&copy; 2021 Amadeus | All rights reserved</p>
-        </div>
-
+      <div className="col-start-3 col-end-11 block font-serif text-small font-normal not-italic leading-smallf  tracking-normal  text-center text-92_green pt-4 pb-2">
+        <p>valle Corrado 2, 82030 Melizzano, Campania, Italy</p>
+        <p>phone number: +39 3887842886</p>
+        <p className="mb-2">e-mail: mesogheo@googlemail.com</p>
+        <a href="/">
+          <p>FAQ</p>
+        </a>
       </div>
-      <ScrollButton />
+
+      <div className="col-start-6 col-end-8 flex flex-row justify-evenly inline pb-3b">
+        <a href="/">
+          <img src={facebookIcon} alt="facebook icon" className="w-3b"/>
+          {/* <Facebook color={'#FFFFFF'} /> */}
+        </a>
+        <a href="/">
+          {/* <Instagram color={'#FFFFFF'} /> */}
+          <img src={instagramIcon} alt="instagram icon" className="w-3b"/>
+        </a>
+      </div>
+
     </footer>
   );
 }
