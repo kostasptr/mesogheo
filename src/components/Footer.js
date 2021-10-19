@@ -13,7 +13,7 @@ function Footer() {
         <p>valle Corrado 2, 82030 Melizzano, Campania, Italy</p>
         <p>phone number: +39 3887842886</p>
         <p className="mb-2">e-mail: mesogheo@googlemail.com</p>
-        <a href="/">
+        <a href="/faq">
           <p>FAQ</p>
         </a>
       </div>
@@ -25,7 +25,7 @@ function Footer() {
         </a>
         <a href="/">
           {/* <Instagram color={'#FFFFFF'} /> */}
-          <img src={instagramIcon} alt="instagram icon" className="w-3b"/>
+          <img src={instagramIcon} alt="instagram icon" className="w-3b ml-1"/>
         </a>
       </div>
 

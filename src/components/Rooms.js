@@ -1,5 +1,4 @@
 import React from 'react';
-import './Rooms.css';
 
 function Rooms() {
 
