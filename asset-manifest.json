@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mesogheo/static/css/main.9e21de74.chunk.css",
-    "main.js": "/mesogheo/static/js/main.a07c6d5b.chunk.js",
-    "main.js.map": "/mesogheo/static/js/main.a07c6d5b.chunk.js.map",
+    "main.css": "/mesogheo/static/css/main.2d0655d2.chunk.css",
+    "main.js": "/mesogheo/static/js/main.faa42cf5.chunk.js",
+    "main.js.map": "/mesogheo/static/js/main.faa42cf5.chunk.js.map",
     "runtime-main.js": "/mesogheo/static/js/runtime-main.7aef126f.js",
     "runtime-main.js.map": "/mesogheo/static/js/runtime-main.7aef126f.js.map",
     "static/js/2.2b2dd4b2.chunk.js": "/mesogheo/static/js/2.2b2dd4b2.chunk.js",
@@ -10,13 +10,15 @@
     "static/js/3.e77e36a0.chunk.js": "/mesogheo/static/js/3.e77e36a0.chunk.js",
     "static/js/3.e77e36a0.chunk.js.map": "/mesogheo/static/js/3.e77e36a0.chunk.js.map",
     "index.html": "/mesogheo/index.html",
-    "static/css/main.9e21de74.chunk.css.map": "/mesogheo/static/css/main.9e21de74.chunk.css.map",
-    "static/js/2.2b2dd4b2.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.2b2dd4b2.chunk.js.LICENSE.txt"
+    "static/css/main.2d0655d2.chunk.css.map": "/mesogheo/static/css/main.2d0655d2.chunk.css.map",
+    "static/js/2.2b2dd4b2.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.2b2dd4b2.chunk.js.LICENSE.txt",
+    "static/media/logo-facebook.b8b485c0.svg": "/mesogheo/static/media/logo-facebook.b8b485c0.svg",
+    "static/media/logo-instagram2.9ca27e00.png": "/mesogheo/static/media/logo-instagram2.9ca27e00.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7aef126f.js",
     "static/js/2.2b2dd4b2.chunk.js",
-    "static/css/main.9e21de74.chunk.css",
-    "static/js/main.a07c6d5b.chunk.js"
+    "static/css/main.2d0655d2.chunk.css",
+    "static/js/main.faa42cf5.chunk.js"
   ]
 }
