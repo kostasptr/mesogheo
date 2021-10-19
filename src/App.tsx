@@ -6,6 +6,7 @@ import Rooms from './components/Rooms';
 import About from './components/About';
 import Book from './components/Book';
 import Footer from './components/Footer';
+import FAQ from './components/FAQ';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/rooms" component={Rooms} />
           <Route path="/about" component={About} />
           <Route path="/book" component={Book} />
+          <Route path="/faq" component={FAQ} />
         </Switch>
         <Footer />
       </div>
