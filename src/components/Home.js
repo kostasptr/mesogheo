@@ -29,7 +29,7 @@ class Home extends React.Component {
           <p>VIOLA</p>
         </Link>
       </div>
-      <div className="col-start-4 col-end-10 mb-3 font-serif not-italic font-normal leading-4  flex  justify-around">
+      <div className="col-start-4 col-end-10 mb-2 font-serif not-italic font-normal leading-4  flex  justify-around">
         <Link to="/verde" className="text-small12 text-22_green hover:text-pink pl-1">
           <p>VERDE</p>
         </Link>
