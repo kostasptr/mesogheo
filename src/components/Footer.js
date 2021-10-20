@@ -2,7 +2,7 @@ import React from 'react';
 // import { Facebook, Instagram } from 'react-ionicons';
 import { Link } from "react-router-dom";
 import facebookIcon from "../images/logo-facebook.svg";
-import instagramIcon from "../images/logo-instagram2.png";
+import instagramIcon from "../images/logo-instagram 1.svg";
 
 function Footer() {
 
