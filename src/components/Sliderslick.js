@@ -1,18 +1,26 @@
 import React from 'react';
-import Slider from "react-slick";
+import Slider from 'react-slick';
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 import room1 from '../images/hero_image.jpg';
 
 export default function SimpleSlider(photos) {
+  
   var settings = {
     className: "col-span-full",
+    accesibility: false,
+    arrows: false,
     dots: true,
+    dotsClass: "",
     infinite: true,
+    slickPrev: false,
     speed: 500,
-    fade: true,
+    swipe: true,
+    autoplaySpeed:3000,
     autoplay: true,
-    autoplaySpeed: 1000,
+    fade: false,
+    centerMode: true,
+    // customPaging
     pauseOnHover: true,
     slidesToShow: 1,
     slidesToScroll: 1,
