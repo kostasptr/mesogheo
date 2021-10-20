@@ -16,7 +16,7 @@ function Book() {
 				Sunday-Thursday: 110€ / Friday-Saturday: 130€</p>
 				<p className="mb-3">*Breakfast included in your booking</p>
 				<p className="mb-4 ">*Check in from 15.00 to 20.00<br></br>*Check out until 12.00</p>
-				<p className="text-center ">for more information visit our FAQ page</p>
+				<p className="text-center italic">for more information visit our <span className="text-pink underline">FAQ</span> page</p>
 			</div>
 		</div>
 	);
