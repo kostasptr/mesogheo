@@ -26,14 +26,14 @@ function Footer() {
       </div>
 
       <div className="col-start-6 col-end-8 flex flex-row justify-evenly inline pb-3b">
-        <Link to="https://www.instagram.com/mesogheo/?hl=en" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/mesogheo/?hl=en" target="_blank" rel="noopener noreferrer">
           {/* <Instagram color={'#FFFFFF'} /> */}
           <img src={instagramIcon} alt="instagram icon" className="w-3b "/>
-        </Link>
-        <Link to="https://www.facebook.com/Mesogheo" target="_blank" rel="noopener noreferrer">
+        </a>
+        <a href="https://www.facebook.com/Mesogheo" target="_blank" rel="noopener noreferrer">
           <img src={facebookIcon} alt="facebook icon" className="w-3b ml-1"/>
           {/* <Facebook color={'#FFFFFF'} /> */}
-        </Link>
+        </a>
       </div>
 
     </footer>
