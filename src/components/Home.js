@@ -22,8 +22,8 @@ class Home extends React.Component {
       <Sliderslick/>
       
       <div className="col-start-4 col-end-10 mb-1 mt-3 font-serif not-italic font-normal  flex  justify-around">
-        <Link to="/arizona" className="hover:text-pink">
-          <p className="text-22_green text-small12 leading-4">ARIZONA</p>
+        <Link to="/arizona" >
+          <p className="text-22_green text-small12 leading-4 hover:text-pink">ARIZONA</p>
         </Link>
         <Link to="/viola" className="text-small12 text-22_green hover:text-pink">
           <p>VIOLA</p>
