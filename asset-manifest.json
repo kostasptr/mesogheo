@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/mesogheo/static/css/main.4a5285b1.chunk.css",
-    "main.js": "/mesogheo/static/js/main.c5f2f645.chunk.js",
-    "main.js.map": "/mesogheo/static/js/main.c5f2f645.chunk.js.map",
-    "runtime-main.js": "/mesogheo/static/js/runtime-main.7aef126f.js",
-    "runtime-main.js.map": "/mesogheo/static/js/runtime-main.7aef126f.js.map",
-    "static/js/2.7447c6a1.chunk.js": "/mesogheo/static/js/2.7447c6a1.chunk.js",
-    "static/js/2.7447c6a1.chunk.js.map": "/mesogheo/static/js/2.7447c6a1.chunk.js.map",
-    "static/js/3.e77e36a0.chunk.js": "/mesogheo/static/js/3.e77e36a0.chunk.js",
-    "static/js/3.e77e36a0.chunk.js.map": "/mesogheo/static/js/3.e77e36a0.chunk.js.map",
+    "main.css": "/mesogheo/static/css/main.79fcb3d6.chunk.css",
+    "main.js": "/mesogheo/static/js/main.bb877423.chunk.js",
+    "main.js.map": "/mesogheo/static/js/main.bb877423.chunk.js.map",
+    "runtime-main.js": "/mesogheo/static/js/runtime-main.8fc964c8.js",
+    "runtime-main.js.map": "/mesogheo/static/js/runtime-main.8fc964c8.js.map",
+    "static/js/2.3e62b460.chunk.js": "/mesogheo/static/js/2.3e62b460.chunk.js",
+    "static/js/2.3e62b460.chunk.js.map": "/mesogheo/static/js/2.3e62b460.chunk.js.map",
+    "static/js/3.f5eee6cd.chunk.js": "/mesogheo/static/js/3.f5eee6cd.chunk.js",
+    "static/js/3.f5eee6cd.chunk.js.map": "/mesogheo/static/js/3.f5eee6cd.chunk.js.map",
     "index.html": "/mesogheo/index.html",
-    "static/css/main.4a5285b1.chunk.css.map": "/mesogheo/static/css/main.4a5285b1.chunk.css.map",
-    "static/js/2.7447c6a1.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.7447c6a1.chunk.js.LICENSE.txt",
+    "static/css/main.79fcb3d6.chunk.css.map": "/mesogheo/static/css/main.79fcb3d6.chunk.css.map",
+    "static/js/2.3e62b460.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.3e62b460.chunk.js.LICENSE.txt",
     "static/media/hero_image.3f678e98.jpg": "/mesogheo/static/media/hero_image.3f678e98.jpg",
     "static/media/logo-facebook.b8b485c0.svg": "/mesogheo/static/media/logo-facebook.b8b485c0.svg",
     "static/media/logo-instagram2.9ca27e00.png": "/mesogheo/static/media/logo-instagram2.9ca27e00.png",
     "static/media/logo_mesogheo.18c15370.svg": "/mesogheo/static/media/logo_mesogheo.18c15370.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7aef126f.js",
-    "static/js/2.7447c6a1.chunk.js",
-    "static/css/main.4a5285b1.chunk.css",
-    "static/js/main.c5f2f645.chunk.js"
+    "static/js/runtime-main.8fc964c8.js",
+    "static/js/2.3e62b460.chunk.js",
+    "static/css/main.79fcb3d6.chunk.css",
+    "static/js/main.bb877423.chunk.js"
   ]
 }
