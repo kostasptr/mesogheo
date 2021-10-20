@@ -35,7 +35,7 @@ class Home extends React.Component {
       </div>
 
       <div className="col-start-2 col-end-12 mb-5 font-sans text-small12 not-italic font-light text-left text-02_green">
-        <p className="leading-4">Room 'Arizona' is our cozy nest, has a large bathroom and a private patio where you can enjoy your meals under the warm south Italian sun.</p>
+        <p className="leading-4">Our rooms are equipped with numerous amenities in order to ensure comfort & luxury. Cartel decoration, high quality double mattresses, homemade breakfast, an outdoor swimming pool for the summer, a fireplace for the winter & Netflix are among them. </p>
       </div>
 
     </div>
