@@ -29,12 +29,13 @@ module.exports = {
       '6': '48px',
     },
     colors: {
+      '02_green': '#050604',
       '22_green': '#39412F',
       'pink': '#FF4365',
       '92_green': '#EBEEE7',
     },
     fontFamily: {
-      'sans': ['Graphik', 'sans-serif'],
+      'sans': ['Lato', 'sans-serif'],
       'serif': ['Lora', 'serif'],
     },
     fontSize: {
@@ -47,7 +48,8 @@ module.exports = {
       'smallf': '.823rem',
       'small144': '.9rem',
       'smallfs': '.0.96rem'
-    }
+    },
+
   },
   variants: {
     extend: {
