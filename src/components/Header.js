@@ -11,12 +11,10 @@ function Header() {
           <Link to='/home/#section1'><img src={logo} alt="logo Mesogheo"/></Link>
         </div>
         <div className="col-start-3 col-end-11 flex justify-between pb-4">
-          {/* <ul> */}
-            <li className="inline font-sans text-base not-italic font-normal leading-5 tracking-normal text-center text-22_green hover:text-pink active:line-through">
+            <li className="inline font-serif text-base not-italic font-normal leading-5 tracking-normal text-center text-22_green hover:text-pink active:line-through">
             <Link to="/room" className="active:line-through"> ROOMS </Link></li>
-            <li className="inline font-sans text-base not-italic font-normal leading-5 tracking-normal text-center text-22_green hover:text-pink active:line-through"><Link to="/about"> ABOUT </Link></li>
-            <li className="inline font-sans text-base not-italic font-normal leading-5 tracking-normal text-center text-22_green hover:text-pink active:line-through"><Link to="/book"> BOOK </Link></li>
-          {/* </ul> */}
+            <li className="inline font-serif text-base not-italic font-normal leading-5 tracking-normal text-center text-22_green hover:text-pink active:line-through"><Link to="/about"> ABOUT </Link></li>
+            <li className="inline font-serif text-base not-italic font-normal leading-5 tracking-normal text-center text-pink hover:text-pink active:line-through"><Link to="/book"> BOOK </Link></li>
         </div>
       
       </nav>

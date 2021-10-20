@@ -7,7 +7,7 @@ import room1 from '../images/hero_image.jpg';
 export default function SimpleSlider(photos) {
   
   var settings = {
-    className: "col-span-full",
+    className: "col-span-full w-screen",
     accesibility: false,
     arrows: false,
     dots: true,
