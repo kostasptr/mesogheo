@@ -3,8 +3,11 @@ import React from 'react';
 function Viola() {
 
   return (
-    <div className="grid grid-cols-12 gap-x-2 px-1 bg-92_green">
-      <p className="col-start-2 col-end-12 pb-4 font-sans not-italic leading-4 text-left font-light text-small12 text-02_green tracking-normal">loremEnim velit do ad minim occaecat magna. Mollit sunt commodo et sit occaecat aliquip enim veniam commodo esse quis labore fugiat. Anim tempor consequat pariatur nulla esse magna cillum labore occaecat non nulla occaecat enim. Ex eu non anim esse culpa exercitation eiusmod. In sunt anim tempor ad aliqua laboris officia occaecat. Ex culpa duis minim minim aute ut eiusmod sint duis dolore magna elit eu. Deserunt do minim veniam dolor Lorem incididunt.</p>
+    <div className="grid grid-cols-12 gap-x-2 px-1 bg-92_green pb-3b pt-3b">
+      <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light  tracking-normal">
+        <p className="text-small12 text-22_green">VIOLA:</p>
+        <p className="text-small12 text-22_green">Loft ‘Viola’ with the romantic bedroom up the stairs to the attic & a bathroom with double shower is the perfect combination for a relaxed & sumptuous getaway. </p>
+      </div>
     </div>
   );
 }

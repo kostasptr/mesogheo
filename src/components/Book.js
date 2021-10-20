@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Book() {
 
@@ -6,7 +7,7 @@ function Book() {
 		<div className="grid grid-cols-12 px-1 gap-x-2 bg-92_green pb-5">
 			<div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light text-small12 text-02_green tracking-normal">
 				<p className="mb-3">For information & booking you can contact us on:</p>
-				<p className="mb-5">WhatsApp: +39 3887842886<br></br>Phone number: +39 3887842886<br></br>E-mail: mesogheo@googlemail.com</p>
+				<p className="mb-5"><Link to="tel:+393887842886" target="_blank">WhatsApp: +39 3887842886</Link><br></br><Link to="tel:+393887842886" target="_blank">Phone number: +39 3887842886</Link><br></br><Link to="mailto: mesogheo@googlemail.com" target="_blank">E-mail: mesogheo@googlemail.com</Link></p>
 				<p className="mb-3">Pricelist:</p>
 				<p className="mb-3">Loft Viola & Loft Verde<br></br>
 				Sunday-Thursday: 120€ / Friday-Saturday: 150€</p>
