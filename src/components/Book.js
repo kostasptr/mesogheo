@@ -3,7 +3,7 @@ import React from 'react';
 function Book() {
 
 	return (
-		<div className="grid grid-cols-12 px-1 gap-x-2 bg-92_green pb-5">
+		<div className="grid grid-cols-12 px-1 gap-x-2 pb-5">
 			<div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light text-small12 text-02_green tracking-normal">
 				<p className="mb-3">For information & booking you can contact us on:</p>
 				<p className="mb-5"><a href="tel:+393887842886" target="_blank" rel="noopener noreferrer">WhatsApp: +39 3887842886</a><br></br><a href="tel:+393887842886" target="_blank" rel="noopener noreferrer">Phone number: +39 3887842886</a><br></br><a href="mailto: mesogheo@googlemail.com" target="_blank" rel="noopener noreferrer">E-mail: mesogheo@googlemail.com</a></p>

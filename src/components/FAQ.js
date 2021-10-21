@@ -3,7 +3,7 @@ import React from 'react';
 function FAQ() {
 
   return (
-    <div className="grid grid-cols-12 px-1 gap-x-2 bg-92_green pb-4">
+    <div className="grid grid-cols-12 px-1 gap-x-2 pb-4">
     <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light text-small12 text-02_green tracking-normal">
 			<p className="font-normal mb-2 text-22_green">FAQ</p>
       <p className="mb-2">Check in from 15.00 to 20.00<br></br>

@@ -21,4 +21,6 @@ function Header() {
     </header>
   );
 }
+
+//on:touchend|preventDefault={toggleHovering} on:mouseover={toggleHovering}
 export default Header;
