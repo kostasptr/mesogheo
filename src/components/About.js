@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
 
   return (
-    <div className="grid grid-cols-12 px-1 gap-x-2 bg-92_green pb-4c">
+    <div className="grid grid-cols-12 px-1 gap-x-2 bg-92_green pb-118">
 		<div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light text-small12  tracking-normal">
 			<p className="font-normal text-22_green">About:</p>
 			<p className="text-02_green">Our goal at Mesogheo is to provide you an authentic experience of fresh tradition.
