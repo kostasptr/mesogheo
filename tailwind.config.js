@@ -21,12 +21,14 @@ module.exports = {
       '2': '12px',
       '2b': '14px',
       '3': '16px',
+      '3a': '18px',
       '3b': '20px',
       '4': '24px',
       '4b': '26px',
       '4c': '28px',
       '5': '32px',
       '6': '48px',
+      '118': '118px',
     },
     colors: {
       '02_green': '#050604',
@@ -41,7 +43,6 @@ module.exports = {
     fontSize: {
       'small' : '.625rem',
       'small12' : '.75rem',
-      
     },
     lineHeight: {
       'smallff': '.625rem',
@@ -53,11 +54,9 @@ module.exports = {
   },
   variants: {
     extend: {
-      textDecoration: ['active']
-    },
-    extend: {
+      textDecoration: ['active'],
       textColor: ['hover'],
     },
+      
   },
-  plugins: [],
 }
