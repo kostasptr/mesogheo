@@ -16,7 +16,7 @@ function App() {
   return (
 
     <Routing>
-      <div className="App">
+      <div className="App bg-92_green">
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
