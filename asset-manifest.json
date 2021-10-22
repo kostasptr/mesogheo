@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mesogheo/static/css/main.62d740f4.chunk.css",
+    "main.css": "/mesogheo/static/css/main.396a561f.chunk.css",
     "main.js": "/mesogheo/static/js/main.8db61596.chunk.js",
     "main.js.map": "/mesogheo/static/js/main.8db61596.chunk.js.map",
     "runtime-main.js": "/mesogheo/static/js/runtime-main.8e9e11f0.js",
@@ -12,7 +12,7 @@
     "static/js/3.303090ab.chunk.js.map": "/mesogheo/static/js/3.303090ab.chunk.js.map",
     "index.html": "/mesogheo/index.html",
     "static/css/2.ce4ae040.chunk.css.map": "/mesogheo/static/css/2.ce4ae040.chunk.css.map",
-    "static/css/main.62d740f4.chunk.css.map": "/mesogheo/static/css/main.62d740f4.chunk.css.map",
+    "static/css/main.396a561f.chunk.css.map": "/mesogheo/static/css/main.396a561f.chunk.css.map",
     "static/js/2.ddd238a2.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.ddd238a2.chunk.js.LICENSE.txt",
     "static/media/air_conditioner.4c6ef5fa.svg": "/mesogheo/static/media/air_conditioner.4c6ef5fa.svg",
     "static/media/arizona.661ebe4c.jpg": "/mesogheo/static/media/arizona.661ebe4c.jpg",
@@ -66,7 +66,7 @@
     "static/js/runtime-main.8e9e11f0.js",
     "static/css/2.ce4ae040.chunk.css",
     "static/js/2.ddd238a2.chunk.js",
-    "static/css/main.62d740f4.chunk.css",
+    "static/css/main.396a561f.chunk.css",
     "static/js/main.8db61596.chunk.js"
   ]
 }
