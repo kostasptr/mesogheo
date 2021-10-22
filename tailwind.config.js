@@ -43,6 +43,7 @@ module.exports = {
     fontSize: {
       'small' : '.625rem',
       'small12' : '.75rem',
+      '2.5xl': '1.75rem'
     },
     lineHeight: {
       'smallff': '.625rem',
@@ -50,7 +51,9 @@ module.exports = {
       'small144': '.9rem',
       'smallfs': '.0.96rem'
     },
-
+    letterSpacing: {
+      'xlwidest': '0.285em'
+    }
   },
   variants: {
     extend: {

@@ -57,7 +57,7 @@ const Viola = () => {
 
   return (
     <>
-      <KeenSlider imagesArray={imagesArray} />
+      <KeenSlider imagesArray={imagesArray} title="VIOLA" />
       <div className="grid grid-cols-12 gap-x-2 px-1 pb-3b pt-3b">
         <Roomlinks />
         <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light tracking-normal">

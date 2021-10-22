@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 
 import KeenSliderDot from "./KeenSliderDot";
 
-const KeenSlider = ({ imagesArray }) => {
+const KeenSlider = ({ imagesArray, title }) => {
   const [currentSlide, setCurrentSlide] = React.useState(0)
   const [sliderRef, slider] = useKeenSlider({
     initial: 0,
@@ -31,10 +31,14 @@ const KeenSlider = ({ imagesArray }) => {
               className="keen-slider__slide"
             >
               {images.map(
-                (image, idx2) => (
-                  <img key={idx2} src={image.imgUrl} alt={image.alt} className={`${images.length === 1 ? 'w-full' : `w-1/${images.length}`} inline`}/>
-                )
+                (image, idx2) => {
+                  let htmlCode = (
+                    <img key={idx2} src={image.imgUrl} alt={image.alt} className={`${images.length === 1 ? 'w-full' : `w-1/${images.length}`} inline`}/>
+                  );
+                  return htmlCode;
+                }
               )}
+              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-serif font-medium text-2.5xl text-92_green text-opacity-60 tracking-xlwidest leading-tight">{title || images[0].title}</p>
             </div>
           ))}
         </div>

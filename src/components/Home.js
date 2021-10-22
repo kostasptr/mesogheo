@@ -11,20 +11,24 @@ const Home = () => {
   const imagesArray = [
     [{
       imgUrl: arizona,
-      alt: ''
-    }],
-    [{
-      imgUrl: blu,
-      alt: ''
-    }],
-    [{
-      imgUrl: verde,
-      alt: ''
+      alt: '',
+      title: 'ARIZONA'
     }],
     [{
       imgUrl: viola,
-      alt: ''
-    }]
+      alt: '',
+      title: 'VIOLA'
+    }],
+    [{
+      imgUrl: verde,
+      alt: '',
+      title: 'VERDE'
+    }],
+    [{
+      imgUrl: blu,
+      alt: '',
+      title: 'BLU'
+    }],
   ];
 
   return (
