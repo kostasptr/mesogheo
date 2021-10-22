@@ -16,7 +16,7 @@ const KeenSlider = ({ imagesArray }) => {
   })
 
   const pathname = useLocation().pathname;
-  const isHome = pathname === "/" || pathname === "/home";
+  const isHome = pathname === "/";
 
   return (
     <div className="col-span-full" id={isHome ? "rooms" : ''}>

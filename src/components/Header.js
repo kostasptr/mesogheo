@@ -12,13 +12,12 @@ const Header = () => {
     <header className="App-Header">
       <nav className="grid grid-cols-12 px-1 gap-x-2 bg-92_green">
         <div className={`col-start-4 col-end-10 block mx-auto mt-5 mb-3b ${textColor}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
-          <Link to='/home'>
-            {/* <img src={logo} alt="logo Mesogheo"/> */}
+          <Link to='/'>
             <ReactLogo />
           </Link>
         </div>
         <div className="col-start-3 col-end-11 flex justify-between pb-4">
-          <NavLink link="/home#rooms" hash={true} text="ROOMS" />
+          <NavLink link="/#rooms" hash={true} text="ROOMS" />
           <NavLink link="/about" text="ABOUT" />
           <NavLink link="/book" text="BOOK" cta={true} />
         </div>      

@@ -15,15 +15,12 @@ import './App.css';
 
 function App() {
   return (
-
-    <Routing>
+    <Routing basename="/mesogheo">
       <ScrollToTop />
       <div className="App bg-92_green">
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/mesogheo" component={Home} />
-          <Route path="/home" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/book" component={Book} />
           <Route path="/faq" component={FAQ} />
