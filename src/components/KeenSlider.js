@@ -7,6 +7,7 @@ const KeenSlider = ({ images }) => {
   const [currentSlide, setCurrentSlide] = React.useState(0)
   const [sliderRef, slider] = useKeenSlider({
     initial: 0,
+    loop: true,
     slideChanged(s) {
       setCurrentSlide(s.details().relativeSlide)
     },
