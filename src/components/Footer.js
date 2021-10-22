@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import facebookIcon from "../images/logo-facebook.svg";
-import instagramIcon from "../images/logo-instagram.svg";
+import {ReactComponent as FacebookIcon} from "../images/logo-facebook.svg";
+import {ReactComponent as InstagramIcon} from "../images/logo-instagram.svg";
 
 const Footer = () => {
+  const [isInHovered, setInHovered] = useState(false);
+  const [isFbHovered, setFbHovered] = useState(false);
+  const inTextColor = isInHovered ? "text-pink" : "text-92_green";
+  const fbTextColor = isFbHovered ? "text-pink" : "text-92_green";
+  const inToggleHover = () => setInHovered(!isInHovered);
+  const fbToggleHover = () => setFbHovered(!isFbHovered);
+
   return (
     <footer className="grid grid-cols-12 px-1 gap-x-2 flex bg-22_green flex-column items-center">
       <div className="col-start-3 col-end-11 block font-serif text-small font-normal not-italic leading-4  tracking-normal  text-center text-92_green pt-4 pb-2">
@@ -22,11 +29,11 @@ const Footer = () => {
       </div>
 
       <div className="col-start-6 col-end-8 flex flex-row justify-between inline pb-3a">
-        <a href="https://www.instagram.com/mesogheo/?hl=en" target="_blank" rel="noopener noreferrer">
-          <img src={instagramIcon} alt="instagram icon" className="w-3a"/>
+        <a href="https://www.instagram.com/mesogheo/" target="_blank" rel="noopener noreferrer" className={`w-3a ${inTextColor}`} onMouseEnter={inToggleHover} onMouseLeave={inToggleHover}>
+          <InstagramIcon />
         </a>
-        <a href="https://www.facebook.com/Mesogheo" target="_blank" rel="noopener noreferrer">
-          <img src={facebookIcon} alt="facebook icon" className="w-3a"/>
+        <a href="https://www.facebook.com/Mesogheo" target="_blank" rel="noopener noreferrer" className={`w-3a ${fbTextColor}`} onMouseEnter={fbToggleHover} onMouseLeave={fbToggleHover}>
+          <FacebookIcon />
         </a>
       </div>
     </footer>
