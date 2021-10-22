@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Routing, Switch, Route } from 'react-router-dom';
+import ScrollToTop from './helpers/ScrollToTop';
 import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
@@ -16,6 +17,7 @@ function App() {
   return (
 
     <Routing>
+      <ScrollToTop />
       <div className="App bg-92_green">
         <Header />
         <Switch>
