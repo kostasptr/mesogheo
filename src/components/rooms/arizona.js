@@ -12,20 +12,45 @@ import arizona_7 from '../../images/Arizona/arizona_7.jpg';
 import arizona_8 from '../../images/Arizona/arizona_8.jpg';
 
 const Arizona = () => {
-  const images = [
-    arizona_1,
-    arizona_2,
-    arizona_3,
-    arizona_4,
-    arizona_5,
-    arizona_6,
-    arizona_7,
-    arizona_8
+  const imagesArray = [
+    [{
+      imgUrl: arizona_1,
+      alt: ''
+    }],
+    [{
+      imgUrl: arizona_2,
+      alt: ''
+    }],
+    [{
+      imgUrl: arizona_3,
+      alt: ''
+    }],
+    [{
+      imgUrl: arizona_4,
+      alt: ''
+    }],
+    [{
+      imgUrl: arizona_5,
+      alt: ''
+    }],
+    [{
+      imgUrl: arizona_6,
+      alt: ''
+    }],
+    [
+      {
+        imgUrl: arizona_7,
+        alt: ''
+      },{
+        imgUrl: arizona_8,
+        alt: ''
+      }
+    ]
   ];
 
   return (
     <>
-      <KeenSlider images={images} />
+      <KeenSlider imagesArray={imagesArray} />
       <div className="grid grid-cols-12 gap-x-2 px-1 mb-5 pt-3b">
         <Roomlinks />
         <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light tracking-normal mb-3">

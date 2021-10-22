@@ -9,17 +9,33 @@ import blu_4 from '../../images/Blu/blu_4.jpg';
 import blu_5 from '../../images/Blu/blu_5.jpg';
 
 const Blu = () => {
-  const images = [
-    blu_1,
-    blu_2,
-    blu_3,
-    blu_4,
-    blu_5
+  const imagesArray = [
+    [{
+      imgUrl: blu_1,
+      alt: ''
+    }],
+    [{
+      imgUrl: blu_2,
+      alt: ''
+    }],
+    [
+      {
+        imgUrl: blu_3,
+        alt: ''
+      },{
+        imgUrl: blu_4,
+        alt: ''
+      }
+    ],
+    [{
+      imgUrl: blu_5,
+      alt: ''
+    }]
   ];
 
   return (
     <>
-      <KeenSlider images={images} />
+      <KeenSlider imagesArray={imagesArray} />
       <div className="grid grid-cols-12 gap-x-2 px-1 pb-3b pt-3b">
         <Roomlinks />
         <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light  tracking-normal">

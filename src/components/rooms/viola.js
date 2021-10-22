@@ -13,21 +13,51 @@ import viola_8 from '../../images/Viola/viola_8.jpg';
 import viola_9 from '../../images/Viola/viola_9.jpg';
 
 const Viola = () => {
-  const images = [
-    viola_1,
-    viola_2,
-    viola_3,
-    viola_4,
-    viola_5,
-    viola_6,
-    viola_7,
-    viola_8,
-    viola_9
+  const imagesArray = [
+    [
+      {
+        imgUrl: viola_1,
+        alt: ''
+      },{
+        imgUrl: viola_2,
+        alt: ''
+      }
+    ],
+    [{
+      imgUrl: viola_3,
+      alt: ''
+    }],
+    [{
+      imgUrl: viola_4,
+      alt: ''
+    }],
+    [
+      {
+        imgUrl: viola_5,
+        alt: ''
+      },{
+        imgUrl: viola_6,
+        alt: ''
+      }
+    ],
+    [
+      {
+        imgUrl: viola_7,
+        alt: ''
+      },{
+        imgUrl: viola_8,
+        alt: ''
+      }
+    ],
+    [{
+      imgUrl: viola_9,
+      alt: ''
+    }]
   ];
 
   return (
     <>
-      <KeenSlider images={images} />
+      <KeenSlider imagesArray={imagesArray} />
       <div className="grid grid-cols-12 gap-x-2 px-1 pb-3b pt-3b">
         <Roomlinks />
         <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light tracking-normal">

@@ -8,11 +8,23 @@ import verde from '../images/verde.jpg';
 import viola from '../images/viola.jpg';
 
 const Home = () => {
-  const images = [
-    arizona,
-    blu,
-    verde,
-    viola
+  const imagesArray = [
+    [{
+      imgUrl: arizona,
+      alt: ''
+    }],
+    [{
+      imgUrl: blu,
+      alt: ''
+    }],
+    [{
+      imgUrl: verde,
+      alt: ''
+    }],
+    [{
+      imgUrl: viola,
+      alt: ''
+    }]
   ];
 
   return (
@@ -28,7 +40,7 @@ const Home = () => {
       </div>
       
       <div>
-        <KeenSlider images={images}/>
+        <KeenSlider imagesArray={imagesArray}/>
       </div>
 
       <div className="grid grid-cols-12 gap-x-2 px-1">

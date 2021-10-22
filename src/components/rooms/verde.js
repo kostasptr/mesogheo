@@ -12,20 +12,47 @@ import verde_7 from '../../images/Verde/verde_7.jpg';
 import verde_8 from '../../images/Verde/verde_8.jpg';
 
 const Verde = () => {
-  const images = [
-    verde_1,
-    verde_2,
-    verde_3,
-    verde_4,
-    verde_5,
-    verde_6,
-    verde_7,
-    verde_8
+  const imagesArray = [
+    [{
+      imgUrl: verde_1,
+      alt: ''
+    }],
+    [{
+      imgUrl: verde_2,
+      alt: ''
+    }],
+    [
+      {
+        imgUrl: verde_3,
+        alt: ''
+      },{
+        imgUrl: verde_4,
+        alt: ''
+      }
+    ],
+    [{
+      imgUrl: verde_5,
+      alt: ''
+    }],
+    [
+      {
+        imgUrl: verde_6,
+        alt: ''
+      },
+      {
+        imgUrl: verde_7,
+        alt: ''
+      }
+    ],
+    [{
+      imgUrl: verde_8,
+      alt: ''
+    }]
   ];
 
   return (
     <>
-      <KeenSlider images={images} />
+      <KeenSlider imagesArray={imagesArray} />
       <div className="grid grid-cols-12 gap-x-2 px-1 pb-3b pt-3b">
         <Roomlinks />
         <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light  tracking-normal">

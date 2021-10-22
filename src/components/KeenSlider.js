@@ -3,7 +3,7 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import { useLocation } from "react-router-dom";
 
-const KeenSlider = ({ images }) => {
+const KeenSlider = ({ imagesArray }) => {
   const [currentSlide, setCurrentSlide] = React.useState(0)
   const [sliderRef, slider] = useKeenSlider({
     initial: 0,
@@ -20,12 +20,16 @@ const KeenSlider = ({ images }) => {
     <div className="col-span-full" id={isHome ? "rooms" : ''}>
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider w-screen">
-          {images.map((imgUrl, idx) => (
+          {imagesArray.map((images, idx) => (
             <div
               key={idx}
               className="keen-slider__slide"
             >
-              <img src={imgUrl} alt="dfg" className="w-full"/>
+              {images.map(
+                (image, idx2) => (
+                  <img key={idx2} src={image.imgUrl} alt={image.alt} className={`w-${images.length === 1 ? 'full' : `1/${images.length}`} inline`}/>
+                )
+              )}
             </div>
           ))}
         </div>
