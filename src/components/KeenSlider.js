@@ -18,6 +18,9 @@ const KeenSlider = ({ imagesArray }) => {
   const pathname = useLocation().pathname;
   const isHome = pathname === "/";
 
+  // Purge, please include the following classes
+  // w-1/2 w-1/3 w-1/4
+
   return (
     <div className="col-span-full" id={isHome ? "rooms" : ''}>
       <div className="navigation-wrapper">
@@ -29,7 +32,7 @@ const KeenSlider = ({ imagesArray }) => {
             >
               {images.map(
                 (image, idx2) => (
-                  <img key={idx2} src={image.imgUrl} alt={image.alt} className={`w-${images.length === 1 ? 'full' : `1/${images.length}`} inline`}/>
+                  <img key={idx2} src={image.imgUrl} alt={image.alt} className={`${images.length === 1 ? 'w-full' : `w-1/${images.length}`} inline`}/>
                 )
               )}
             </div>
