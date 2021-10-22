@@ -3,6 +3,8 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import { useLocation } from "react-router-dom";
 
+import KeenSliderDot from "./KeenSliderDot";
+
 const KeenSlider = ({ imagesArray }) => {
   const [currentSlide, setCurrentSlide] = React.useState(0)
   const [sliderRef, slider] = useKeenSlider({
@@ -35,17 +37,14 @@ const KeenSlider = ({ imagesArray }) => {
         </div>
       </div>
       {slider && (
-        <div className="dots">
+        <div className="flex justify-center">
           {[...Array(slider.details().size).keys()].map((idx) => {
-            return (
-              <button
-                key={idx}
-                onClick={() => {
-                  slider.moveToSlideRelative(idx)
-                }}
-                className={"dot" + (currentSlide === idx ? " active" : "")}
-              />
-            )
+            return <KeenSliderDot
+                      active={currentSlide === idx} key={idx} 
+                      onClick={() => {
+                        slider.moveToSlideRelative(idx)
+                      }}
+                    />;
           })}
         </div>
       )}
