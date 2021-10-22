@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import KeenSlider from './KeenSlider';
+import KeenSlider from '../KeenSlider';
 import viola_1 from '../../images/Viola/viola_1.jpg';
 import viola_2 from '../../images/Viola/viola_2.jpg';
 import viola_3 from '../../images/Viola/viola_3.jpg';

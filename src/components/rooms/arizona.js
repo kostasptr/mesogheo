@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import KeenSlider from './KeenSlider';
+import KeenSlider from '../KeenSlider';
 import airconditioner from '../../images/amenities/air_conditioner.svg';
 import breakfast from '../../images/amenities/breakfast.svg';
 import hair_dryer from '../../images/amenities/hair_dryer.svg';
 import safe from '../../images/amenities/safe.svg';
 import shower from '../../images/amenities/shower.svg';
 import tv from '../../images/amenities/tv.svg';
+import wifi from '../../images/amenities/wifi.svg';
 import arizona_1 from '../../images/Arizona/arizona_1.jpg';
 import arizona_2 from '../../images/Arizona/arizona_2.jpg';
 import arizona_3 from '../../images/Arizona/arizona_3.jpg';

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import mesogheoPool from '../images/hero_image.jpg';
 import KeenSlider from './KeenSlider';
 import arizona from '../images/arizona.jpg';
-import blu from '../images/blue.jpg';
+import blu from '../images/blu.jpg';
 import verde from '../images/verde.jpg';
 import viola from '../images/viola.jpg';
 
