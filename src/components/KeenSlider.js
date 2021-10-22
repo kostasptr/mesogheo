@@ -1,8 +1,9 @@
 import React from "react"
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
+import { useLocation } from "react-router-dom";
 
-const KeenSlider = (props) => {
+const KeenSlider = ({ images }) => {
   const [currentSlide, setCurrentSlide] = React.useState(0)
   const [sliderRef, slider] = useKeenSlider({
     initial: 0,
@@ -11,10 +12,11 @@ const KeenSlider = (props) => {
     },
   })
 
-  const { images } = props;
+  const path = useLocation().pathname;
+  const isHome = path === "/" || path === "/home";
 
   return (
-    <div className="col-span-full">
+    <div className="col-span-full" id={isHome ? "rooms" : ''}>
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider w-screen">
           {images.map((imgUrl, idx) => (
