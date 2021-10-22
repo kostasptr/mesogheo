@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mesogheo/static/css/main.c8f06c9b.chunk.css",
-    "main.js": "/mesogheo/static/js/main.45134271.chunk.js",
-    "main.js.map": "/mesogheo/static/js/main.45134271.chunk.js.map",
-    "runtime-main.js": "/mesogheo/static/js/runtime-main.73c703f5.js",
-    "runtime-main.js.map": "/mesogheo/static/js/runtime-main.73c703f5.js.map",
+    "main.css": "/mesogheo/static/css/main.7fe0baa1.chunk.css",
+    "main.js": "/mesogheo/static/js/main.bf657fba.chunk.js",
+    "main.js.map": "/mesogheo/static/js/main.bf657fba.chunk.js.map",
+    "runtime-main.js": "/mesogheo/static/js/runtime-main.8e9e11f0.js",
+    "runtime-main.js.map": "/mesogheo/static/js/runtime-main.8e9e11f0.js.map",
     "static/css/2.ce4ae040.chunk.css": "/mesogheo/static/css/2.ce4ae040.chunk.css",
-    "static/js/2.30ebd3f7.chunk.js": "/mesogheo/static/js/2.30ebd3f7.chunk.js",
-    "static/js/2.30ebd3f7.chunk.js.map": "/mesogheo/static/js/2.30ebd3f7.chunk.js.map",
-    "static/js/3.fc7429ce.chunk.js": "/mesogheo/static/js/3.fc7429ce.chunk.js",
-    "static/js/3.fc7429ce.chunk.js.map": "/mesogheo/static/js/3.fc7429ce.chunk.js.map",
+    "static/js/2.5be3b352.chunk.js": "/mesogheo/static/js/2.5be3b352.chunk.js",
+    "static/js/2.5be3b352.chunk.js.map": "/mesogheo/static/js/2.5be3b352.chunk.js.map",
+    "static/js/3.303090ab.chunk.js": "/mesogheo/static/js/3.303090ab.chunk.js",
+    "static/js/3.303090ab.chunk.js.map": "/mesogheo/static/js/3.303090ab.chunk.js.map",
     "index.html": "/mesogheo/index.html",
     "static/css/2.ce4ae040.chunk.css.map": "/mesogheo/static/css/2.ce4ae040.chunk.css.map",
-    "static/css/main.c8f06c9b.chunk.css.map": "/mesogheo/static/css/main.c8f06c9b.chunk.css.map",
-    "static/js/2.30ebd3f7.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.30ebd3f7.chunk.js.LICENSE.txt",
+    "static/css/main.7fe0baa1.chunk.css.map": "/mesogheo/static/css/main.7fe0baa1.chunk.css.map",
+    "static/js/2.5be3b352.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.5be3b352.chunk.js.LICENSE.txt",
     "static/media/air_conditioner.4c6ef5fa.svg": "/mesogheo/static/media/air_conditioner.4c6ef5fa.svg",
     "static/media/arizona.661ebe4c.jpg": "/mesogheo/static/media/arizona.661ebe4c.jpg",
     "static/media/arizona_1.661ebe4c.jpg": "/mesogheo/static/media/arizona_1.661ebe4c.jpg",
@@ -61,10 +61,10 @@
     "static/media/wifi.e1fdbe04.svg": "/mesogheo/static/media/wifi.e1fdbe04.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.73c703f5.js",
+    "static/js/runtime-main.8e9e11f0.js",
     "static/css/2.ce4ae040.chunk.css",
-    "static/js/2.30ebd3f7.chunk.js",
-    "static/css/main.c8f06c9b.chunk.css",
-    "static/js/main.45134271.chunk.js"
+    "static/js/2.5be3b352.chunk.js",
+    "static/css/main.7fe0baa1.chunk.css",
+    "static/js/main.bf657fba.chunk.js"
   ]
 }
