@@ -8,7 +8,7 @@ function Header() {
     <header className="App-Header">
       <nav className="grid grid-cols-12 px-1 gap-x-2 bg-92_green">
         <div className="col-start-4 col-end-10 block mx-auto mt-5 mb-3b">
-          <Link to='/home/#section1'><img src={logo} alt="logo Mesogheo"/></Link>
+          <Link to='/home'><img src={logo} alt="logo Mesogheo"/></Link>
         </div>
         <div className="col-start-3 col-end-11 flex justify-between pb-4">
             <li className="inline font-serif text-base not-italic font-normal leading-5 tracking-normal text-center text-22_green hover:text-pink active:line-through">
