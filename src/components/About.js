@@ -1,7 +1,6 @@
 import React from 'react';
 
-function About() {
-
+const About = () => {
   return (
     <div className="grid grid-cols-12 px-1 gap-x-2 pb-118">
 		<div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light text-small12  tracking-normal">

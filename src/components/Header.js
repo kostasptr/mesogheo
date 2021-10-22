@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import NavLink from './NavLink';
 import logo from '../images/logo_mesogheo.svg';
 
-function Header() {
-
+const Header = () => {
   return (
     <header className="App-Header">
       <nav className="grid grid-cols-12 px-1 gap-x-2 bg-92_green">
@@ -23,5 +22,4 @@ function Header() {
   );
 }
 
-//on:touchend|preventDefault={toggleHovering} on:mouseover={toggleHovering}
 export default Header;

@@ -32,13 +32,11 @@ const Home = () => {
       </div>
 
       <div className="grid grid-cols-12 gap-x-2 px-1">
-
         <Roomlinks />
 
         <div className="col-start-2 col-end-12 mb-5 font-sans text-small12 not-italic font-light text-left text-02_green">
           <p className="leading-4">Our rooms are equipped with numerous amenities in order to ensure comfort & luxury. Cartel decoration, high quality double mattresses, homemade breakfast, an outdoor swimming pool for the summer, a fireplace for the winter & Netflix are among them. </p>
         </div>
-
       </div>
     </>
   );

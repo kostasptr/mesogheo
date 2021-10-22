@@ -1,7 +1,6 @@
 import React from 'react';
 
-function Book() {
-
+const Book = () => {
 	return (
 		<div className="grid grid-cols-12 px-1 gap-x-2 pb-5">
 			<div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light text-small12 text-02_green tracking-normal">

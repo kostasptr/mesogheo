@@ -8,28 +8,26 @@ import blu_3 from '../../images/Blu/blu_3.jpg';
 import blu_4 from '../../images/Blu/blu_4.jpg';
 import blu_5 from '../../images/Blu/blu_5.jpg';
 
-function Blu() {
-
-      const images = [
-      blu_1,
-      blu_2,
-      blu_3,
-      blu_4,
-      blu_5
+const Blu = () => {
+  const images = [
+    blu_1,
+    blu_2,
+    blu_3,
+    blu_4,
+    blu_5
   ];
 
   return (
     <>
-
-    <KeenSlider images={images} />
-    <div className="grid grid-cols-12 gap-x-2 px-1 pb-3b pt-3b">
-      <Roomlinks />
-      <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light  tracking-normal">
-        <p className="text-small12 text-22_green">BLU:</p>
-        <p className="text-small12 text-22_green">Room 'Blu' is our jewel, the only one to have a bathtub for relaxing self-care time & a big window with a mesmerizing view on the valley. </p>
+      <KeenSlider images={images} />
+      <div className="grid grid-cols-12 gap-x-2 px-1 pb-3b pt-3b">
+        <Roomlinks />
+        <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light  tracking-normal">
+          <p className="text-small12 text-22_green">BLU:</p>
+          <p className="text-small12 text-22_green">Room 'Blu' is our jewel, the only one to have a bathtub for relaxing self-care time & a big window with a mesmerizing view on the valley. </p>
+        </div>
+        <Amenities className="col-start-2 col-end-9 flex flex-row justify-between" />
       </div>
-      <Amenities className="col-start-2 col-end-9 flex flex-row justify-between" />
-    </div>
     </>
   );
 }
