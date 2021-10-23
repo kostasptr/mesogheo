@@ -36,11 +36,11 @@ const Blu = () => {
   return (
     <>
       <KeenSlider imagesArray={imagesArray} title="BLU" />
-      <div className="grid grid-cols-12 gap-x-2 px-1 pb-3b pt-3b">
+      <div className="grid grid-cols-12 gap-x-2 px-1 mb-5">
         <Roomlinks />
-        <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light  tracking-normal">
-          <p className="text-small12 text-22_green">Room 'Blu' is our jewel, the only one to have a bathtub for relaxing self-care time & a big window with a mesmerizing view on the valley. </p>
-        </div>
+        <p className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light mb-2 text-small12 text-02_green">
+          Room 'Blu' is our jewel, the only one to have a bathtub for relaxing self-care time & a big window with a mesmerizing view on the valley.
+        </p>
         <Amenities className="col-start-2 col-end-9 flex flex-row justify-between" />
       </div>
     </>

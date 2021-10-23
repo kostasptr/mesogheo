@@ -58,11 +58,11 @@ const Viola = () => {
   return (
     <>
       <KeenSlider imagesArray={imagesArray} title="VIOLA" />
-      <div className="grid grid-cols-12 gap-x-2 px-1 pb-3b pt-3b">
+      <div className="grid grid-cols-12 gap-x-2 px-1 mb-5">
         <Roomlinks />
-        <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light tracking-normal">
-          <p className="text-small12 text-22_green">Loft ‘Viola’ with the romantic bedroom up the stairs to the attic & a bathroom with double shower is the perfect combination for a relaxed & sumptuous getaway. </p>
-        </div>
+        <p className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light mb-2 text-small12 text-02_green">
+          Loft ‘Viola’ with the romantic bedroom up the stairs to the attic & a bathroom with double shower is the perfect combination for a relaxed & sumptuous getaway.
+        </p>
         <Amenities className="col-start-2 col-end-9 flex flex-row justify-between" />
       </div>
     </>

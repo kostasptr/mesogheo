@@ -51,11 +51,11 @@ const Arizona = () => {
   return (
     <>
       <KeenSlider imagesArray={imagesArray} title="ARIZONA" />
-      <div className="grid grid-cols-12 gap-x-2 px-1 mb-5 pt-3b">
+      <div className="grid grid-cols-12 gap-x-2 px-1 mb-5">
         <Roomlinks />
-        <div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light tracking-normal mb-3">
-          <p className="text-small12 text-22_green ">Room 'Arizona' is our cozy nest, has a large bathroom & a private patio where you can enjoy your meals under the warm south Italian sun. </p>
-        </div>
+        <p className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light mb-2 text-small12 text-02_green">
+          Room 'Arizona' is our cozy nest, has a large bathroom & a private patio where you can enjoy your meals under the warm south Italian sun.
+        </p>
         <Amenities className="col-start-2 col-end-9 flex flex-row justify-between" />
       </div>
     </>
