@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mesogheo/static/css/main.b9421a81.chunk.css",
-    "main.js": "/mesogheo/static/js/main.15d3d2ea.chunk.js",
-    "main.js.map": "/mesogheo/static/js/main.15d3d2ea.chunk.js.map",
+    "main.css": "/mesogheo/static/css/main.bafcf466.chunk.css",
+    "main.js": "/mesogheo/static/js/main.7073215f.chunk.js",
+    "main.js.map": "/mesogheo/static/js/main.7073215f.chunk.js.map",
     "runtime-main.js": "/mesogheo/static/js/runtime-main.8e9e11f0.js",
     "runtime-main.js.map": "/mesogheo/static/js/runtime-main.8e9e11f0.js.map",
     "static/css/2.ce4ae040.chunk.css": "/mesogheo/static/css/2.ce4ae040.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.303090ab.chunk.js.map": "/mesogheo/static/js/3.303090ab.chunk.js.map",
     "index.html": "/mesogheo/index.html",
     "static/css/2.ce4ae040.chunk.css.map": "/mesogheo/static/css/2.ce4ae040.chunk.css.map",
-    "static/css/main.b9421a81.chunk.css.map": "/mesogheo/static/css/main.b9421a81.chunk.css.map",
+    "static/css/main.bafcf466.chunk.css.map": "/mesogheo/static/css/main.bafcf466.chunk.css.map",
     "static/js/2.ddd238a2.chunk.js.LICENSE.txt": "/mesogheo/static/js/2.ddd238a2.chunk.js.LICENSE.txt",
     "static/media/air_conditioner.4c6ef5fa.svg": "/mesogheo/static/media/air_conditioner.4c6ef5fa.svg",
     "static/media/arizona.661ebe4c.jpg": "/mesogheo/static/media/arizona.661ebe4c.jpg",
@@ -36,8 +36,8 @@
     "static/media/hair_dryer.c1bda29c.svg": "/mesogheo/static/media/hair_dryer.c1bda29c.svg",
     "static/media/hero_image.f6837322.jpg": "/mesogheo/static/media/hero_image.f6837322.jpg",
     "static/media/logo-facebook.7ae0f37e.svg": "/mesogheo/static/media/logo-facebook.7ae0f37e.svg",
-    "static/media/logo-instagram.ff7b5a8d.svg": "/mesogheo/static/media/logo-instagram.ff7b5a8d.svg",
-    "static/media/logo_mesogheo.77539931.svg": "/mesogheo/static/media/logo_mesogheo.77539931.svg",
+    "static/media/logo-instagram.9134907d.svg": "/mesogheo/static/media/logo-instagram.9134907d.svg",
+    "static/media/logo_mesogheo.d34980d6.svg": "/mesogheo/static/media/logo_mesogheo.d34980d6.svg",
     "static/media/safe.0b467ecb.svg": "/mesogheo/static/media/safe.0b467ecb.svg",
     "static/media/shower.7a9e2d59.svg": "/mesogheo/static/media/shower.7a9e2d59.svg",
     "static/media/tv.fd9df4d4.svg": "/mesogheo/static/media/tv.fd9df4d4.svg",
@@ -66,7 +66,7 @@
     "static/js/runtime-main.8e9e11f0.js",
     "static/css/2.ce4ae040.chunk.css",
     "static/js/2.ddd238a2.chunk.js",
-    "static/css/main.b9421a81.chunk.css",
-    "static/js/main.15d3d2ea.chunk.js"
+    "static/css/main.bafcf466.chunk.css",
+    "static/js/main.7073215f.chunk.js"
   ]
 }
