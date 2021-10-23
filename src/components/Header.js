@@ -9,8 +9,8 @@ const Header = () => {
   const toggleHover = () => setHovered(!isHovered);
 
   return (
-    <header className="App-Header">
-      <nav className="grid grid-cols-12 px-1 gap-x-2 bg-92_green">
+    <header className="bg-92_green">
+      <nav className="grid grid-cols-12 px-1 gap-x-2">
         <div className={`col-start-4 col-end-10 block mx-auto mt-5 mb-3b ${textColor}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
           <Link to='/'>
             <ReactLogo className="w-full" />

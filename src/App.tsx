@@ -17,18 +17,20 @@ function App() {
   return (
     <Routing basename="/mesogheo">
       <ScrollToTop />
-      <div className="App bg-92_green">
+      <div className="h-full flex flex-col">
         <Header />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/book" component={Book} />
-          <Route path="/faq" component={FAQ} />
-          <Route path="/arizona" component={Arizona} />
-          <Route path="/blu" component={Blu} />
-          <Route path="/verde" component={Verde} />
-          <Route path="/viola" component={Viola} />
-        </Switch>
+        <div className="flex-1-0-auto bg-92_green">
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/book" component={Book} />
+            <Route path="/faq" component={FAQ} />
+            <Route path="/arizona" component={Arizona} />
+            <Route path="/blu" component={Blu} />
+            <Route path="/verde" component={Verde} />
+            <Route path="/viola" component={Viola} />
+          </Switch>
+        </div>
         <Footer />
       </div>
     </Routing>
