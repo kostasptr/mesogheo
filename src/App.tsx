@@ -15,7 +15,7 @@ import './App.css';
 
 function App() {
   return (
-    <Routing basename="/mesogheo">
+    <Routing>
       <ScrollToTop />
       <div className="h-full flex flex-col">
         <Header />
