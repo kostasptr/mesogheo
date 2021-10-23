@@ -40,19 +40,21 @@ module.exports = {
       'sans': ['Lato', 'sans-serif'],
       'serif': ['Lora', 'serif'],
     },
-    fontSize: {
-      'small' : '.625rem',
-      'small12' : '.75rem',
-      '2.5xl': '1.75rem'
-    },
-    lineHeight: {
-      'smallff': '.625rem',
-      'smallf': '.823rem',
-      'small144': '.9rem',
-      'smallfs': '.0.96rem'
-    },
-    letterSpacing: {
-      'xlwidest': '0.285em'
+    extend: {
+      fontSize: {
+        'small' : '.625rem',
+        'small12' : '.75rem',
+        '2.5xl': '1.75rem'
+      },
+      lineHeight: {
+        'smallff': '.625rem',
+        'smallf': '.823rem',
+        'small144': '.9rem',
+        'smallfs': '.0.96rem'
+      },
+      letterSpacing: {
+        'xlwidest': '0.285em'
+      }
     }
   },
   variants: {
