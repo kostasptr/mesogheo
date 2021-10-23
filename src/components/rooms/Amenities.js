@@ -1,7 +1,6 @@
 import {ReactComponent as AirConditioner} from '../../images/amenities/air_conditioner.svg';
 import {ReactComponent as Breakfast} from '../../images/amenities/breakfast.svg';
 import {ReactComponent as HairDryer} from '../../images/amenities/hair_dryer.svg';
-import {ReactComponent as Safe} from '../../images/amenities/safe.svg';
 import {ReactComponent as Shower} from '../../images/amenities/shower.svg';
 import {ReactComponent as TV} from '../../images/amenities/tv.svg';
 import {ReactComponent as WiFi} from '../../images/amenities/wifi.svg';
@@ -15,7 +14,6 @@ const Amenities = () => {
       <TV />
       <Shower />
       <HairDryer />
-      <Safe />
     </div>
   );
 };
