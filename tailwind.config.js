@@ -38,7 +38,9 @@ module.exports = {
         '4b': '26px',
         '4c': '28px',
         '5': '32px',
+        '5b': '36px',
         '6': '48px',
+        '6b':'54px',
       },
       fontSize: {
         'small' : '.625rem',
@@ -49,7 +51,8 @@ module.exports = {
         'smallff': '.625rem',
         'smallf': '.823rem',
         'small144': '.9rem',
-        'smallfs': '.0.96rem'
+        'smallfs': '.96rem',
+        'height36': '2.25rem'
       },
       letterSpacing: {
         'xlwidest': '0.285em'
