@@ -10,7 +10,7 @@ const NavLink = ({link, hash=false, text, cta=false}) => {
   const pathname = useLocation().pathname;
 
   return (
-    <li className={`inline font-serif text-base not-italic font-normal leading-5 tracking-normal text-center ${textColor} ${pathname===link ? "line-through" : ""}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
+    <li className={`inline font-serif text-base not-italic font-normal leading-5 tracking-normal text-center md:text-2.5xl md:leading-height36 ${textColor} ${pathname===link ? "line-through" : ""}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
       {hash ? <HashLink smooth to={link}> {text} </HashLink> : <Link to={link}> {text} </Link>}
     </li>
   );
