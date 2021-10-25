@@ -35,7 +35,7 @@ const Home = () => {
     <>
       <img src={mesogheoPool} alt="mesogheo hotel" className="col-span-full w-screen mb-2"/>
 
-      <div className="grid grid-cols-12 gap-x-2 px-1 md:mx-7 md:px-0 md:gap-x-2">
+      <div className="grid grid-cols-12 gap-x-2 px-1 md:mx-7 md:px-0">
         <div className="col-start-2 col-end-12 mb-4 font-sans text-small12 not-italic font-light leading-4 text-left text-02_green md:text-lg md:leading-7 md:mt-3b md:mb-5b ">
           <p className="mb-2">At the feet of the mount Taburno, in the national park area a magical place has opened its doors. The perfect destination for nature lovers and wanderlust travelers who seek alternative luxury.</p>
           <p className="mb-2">Mesogheo is a bed & breakfast with 4 rooms, each of them carefully decorated in an elegant minimalistic style that contrasts the maximalism of the outside area.</p>
@@ -45,7 +45,7 @@ const Home = () => {
       
       <KeenSlider imagesArray={imagesArray}/>
 
-      <div className="grid grid-cols-12 gap-x-2 px-1  md:mx-7 md:gap-x-2 md:px-0 md:pt-0 ">
+      <div className="grid grid-cols-12 gap-x-2 px-1  md:mx-7 md:px-0 md:pt-0">
         <Roomlinks />
 
         <p className="col-start-2 col-end-12 mb-5 font-sans text-small12 not-italic font-light text-left text-02_green leading-4 md:text-lg md:leading-7  md:mb-5b">
