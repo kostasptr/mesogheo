@@ -10,14 +10,14 @@ const KeenSliderDot = ({ active, onClick }) => {
 
   return active ? (
     <DotActive
-      className={`cursor-pointer w-2.5 md:w-2a ${textColor}`}
+      className={`cursor-pointer w-2.5 md:w-2a lg:w-3b ${textColor}`}
       onClick={onClick}
       onMouseEnter={toggleHover}
       onMouseLeave={toggleHover}
     />
   ) : (
     <Dot
-      className={`cursor-pointer w-2.5 md:w-2a ${textColor}`}
+      className={`cursor-pointer w-2.5 md:w-2a lg:w-3b ${textColor}`}
       onClick={onClick}
       onMouseEnter={toggleHover}
       onMouseLeave={toggleHover}

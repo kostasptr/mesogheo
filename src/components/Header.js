@@ -10,13 +10,13 @@ const Header = () => {
 
   return (
     <header className="bg-92_green">
-      <nav className="grid grid-cols-12 px-1 gap-x-2 md:mx-7 md:px-0 md:gap-x-2">
-        <div className={`col-start-4 col-end-10 block mx-auto mt-5 mb-3b md:mb-9 md:mt-6b ${textColor}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
+      <nav className="grid grid-cols-12 px-1 gap-x-2 md:mx-7 md:px-0 md:gap-x-2 lg:mx-4c lg:gap-x-4">
+        <div className={`col-start-4 col-end-10 block mx-auto mt-5 mb-3b md:mb-9 md:mt-6b lg:col-start-3 lg:col-end-11 lg:col-span-8 lg:mt-16 lg:mb-5e ${textColor}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
           <Link to='/'>
-            <ReactLogo className="w-full" />
+            <ReactLogo className="w-full " />
           </Link>
         </div>
-        <div className="col-start-3 col-end-11 flex justify-between pb-4 md:mb-8 md:pb-0 ">
+        <div className="col-start-3 col-end-11 flex justify-between pb-4 md:mb-8 md:pb-0 lg:mb-10">
           <NavLink link="/#rooms" hash={true} text="ROOMS"/>
           <NavLink link="/about" text="ABOUT" />
           <NavLink link="/book" text="BOOK" cta={true} />

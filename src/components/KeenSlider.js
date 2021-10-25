@@ -22,8 +22,8 @@ const KeenSlider = ({ imagesArray, title }) => {
   // w-1/2 w-1/3 w-1/4
 
   return (
-    <div className="col-span-full mb-2 " id={isHome ? "rooms" : ''}>
-      <div className="navigation-wrapper mb-2 md:mb-3b">
+    <div className="col-span-full mb-2 lg:mb-5a" id={isHome ? "rooms" : ''}>
+      <div className="navigation-wrapper mb-2 md:mb-3b lg:mb-5a">
         <div ref={sliderRef} className="keen-slider w-screen">
           {imagesArray.map((images, idx) => (
             <div
@@ -38,13 +38,13 @@ const KeenSlider = ({ imagesArray, title }) => {
                   return htmlCode;
                 }
               )}
-              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-serif font-medium text-2.5xl text-92_green text-opacity-60 tracking-xlwidest leading-tight md:text-f3.25 md:font-medium md:leading-height67 md:tracking-sp20 ">{title || images[0].title}</p>
+              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-serif font-medium text-2.5xl text-92_green text-opacity-60 tracking-xlwidest leading-tight md:text-f3.25 md:font-medium md:leading-height67 md:tracking-sp20 lg:text-f4 lg:tracking-sp28 lg:leading-height66">{title || images[0].title}</p>
             </div>
           ))}
         </div>
       </div>
       {slider && (
-        <div className="flex justify-center space-x-0.5">
+        <div className="flex justify-center space-x-0.5 lg:space-x-2">
           {[...Array(slider.details().size).keys()].map((idx) => {
             return <KeenSliderDot
                       active={currentSlide === idx} key={idx} 
