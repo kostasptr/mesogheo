@@ -40,8 +40,10 @@ module.exports = {
         '4c': '28px',
         '5': '32px',
         '5b': '36px',
+        '5c': '40px',
         '6': '48px',
         '6b':'54px',
+        '194': '194px'
       },
       fontSize: {
         'small' : '.625rem',
