@@ -42,7 +42,9 @@ module.exports = {
         '5b': '36px',
         '5c': '40px',
         '6': '48px',
+        '6a': '52px',
         '6b':'54px',
+        '60': '60px',
         '194': '194px'
       },
       fontSize: {
