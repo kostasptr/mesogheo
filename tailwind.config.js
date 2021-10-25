@@ -30,6 +30,7 @@ module.exports = {
       spacing: {
         '1': '8px',
         '2': '12px',
+        '2a': '13px',
         '2b': '14px',
         '3': '16px',
         '3a': '18px',
@@ -56,7 +57,8 @@ module.exports = {
       },
       letterSpacing: {
         'xlwidest': '0.285em'
-      }
+      },
+      
     }
   },
   variants: {
