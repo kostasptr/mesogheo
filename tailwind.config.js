@@ -40,32 +40,45 @@ module.exports = {
         '4c': '28px',
         '5': '32px',
         '5a': '34px',
+        '5a2': '35px',
         '5b': '36px',
+        '5b2': '38px',
         '5c': '40px',
+        '5d': '41px',
+        '5e': '46px',
         '6': '48px',
         '6a': '52px',
         '6b':'54px',
         '56': '56px',
         '60': '60px',
-        '194': '194px'
+        '62': '62px',
+        '72':'72px',
+        '194': '194px',
+        '294': '294px'
       },
       fontSize: {
         'small' : '.625rem',
         'small12' : '.75rem',
+        'f24': '1.5rem',
         '2.5xl': '1.75rem',
-        'f3.25': '3.25rem'
+        'base2': '2rem',
+        'f3.25': '3.25rem',
+        'f4': '4rem'
       },
       lineHeight: {
         'smallff': '.625rem',
         'smallf': '.823rem',
         'small144': '.9rem',
         'smallfs': '.96rem',
+        'height28': '1.75rem',
         'height36': '2.25rem',
-        'height67': '4.188rem'
+        'height67': '4.188rem',
+        'height66': '4.125rem'
       },
       letterSpacing: {
         'xlwidest': '0.285em',
-        'sp20': '1.25rem'
+        'sp20': '1.25rem',
+        'sp28': '1.75rem'
       },
       
     }
