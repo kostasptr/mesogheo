@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className="grid grid-cols-12 px-1 gap-x-2 pb-5 md:px-0 md:pb-0 md:mx-7 md:mb-194">
-			<div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light text-small12 tracking-normal md:text-xl md:leading-5">
+			<div className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light text-small12 tracking-normal md:text-xl md:leading-7">
 				<p className="font-normal text-22_green ">About:</p>
 				<p className="text-02_green md:mb-3b ">Our goal at Mesogheo is to provide you an authentic experience of fresh tradition.
 				Simplicity meets nature in its wildest form in order to best serve the need of getting away and being inspired.
