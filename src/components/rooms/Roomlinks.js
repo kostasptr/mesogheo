@@ -11,8 +11,8 @@ const RoomsLinks = () => {
       </div>
 
       <div className="col-start-5 col-end-9 mb-2 font-serif not-italic font-normal leading-4 flex justify-between mt-0 pt-0 md:mb-3b md:pt-0 ">
-        <Link to="/verde" className={`text-small12 text-22_green hover:text-pink md:text-xl md:leading-7 ${pathname==='/verde' ? "line-through" : ""}`}>VERDE</Link>
         <Link to="/blu" className={`text-small12 text-22_green hover:text-pink md:text-xl md:leading-7 ${pathname==='/blu' ? "line-through" : ""}`}>BLU</Link>
+        <Link to="/verde" className={`text-small12 text-22_green hover:text-pink md:text-xl md:leading-7 ${pathname==='/verde' ? "line-through" : ""}`}>VERDE</Link>
       </div>
     </>
   );
