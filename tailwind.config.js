@@ -58,7 +58,8 @@ module.exports = {
         'height67': '4.188rem'
       },
       letterSpacing: {
-        'xlwidest': '0.285em'
+        'xlwidest': '0.285em',
+        'sp20': '1.25rem'
       },
       
     }
