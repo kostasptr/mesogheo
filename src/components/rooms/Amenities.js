@@ -10,8 +10,8 @@ import {ReactComponent as HairDryer} from '../../images/amenities/hair_dryer.svg
 // import {ReactComponent as sqrmVerde} from '../../images/amenities/sqrmVerde.svg';
 // import { Link, useLocation } from "react-router-dom";
 
-const RoomsLinks = () => {
-  const pathname = useLocation().pathname;
+// const RoomsLinks = () => {
+//   const pathname = useLocation().pathname;
 
 const Amenities = () => {
  
