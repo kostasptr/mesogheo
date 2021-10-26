@@ -36,15 +36,18 @@ module.exports = {
         '3a': '18px',
         '3b': '20px',
         '4': '24px',
+        '4a': '25px',
         '4b': '26px',
         '4c': '28px',
         '5': '32px',
+        '5aa': '33px',
         '5a': '34px',
         '5a2': '35px',
         '5b': '36px',
         '5b2': '38px',
         '5c': '40px',
         '5d': '41px',
+        '5dd': '42px',
         '5e': '46px',
         '6': '48px',
         '6a': '52px',
@@ -52,6 +55,8 @@ module.exports = {
         '56': '56px',
         '60': '60px',
         '62': '62px',
+        '67': '67px',
+        '68':'68px',
         '72':'72px',
         '194': '194px',
         '294': '294px'
@@ -72,14 +77,20 @@ module.exports = {
         'smallfs': '.96rem',
         'height28': '1.75rem',
         'height36': '2.25rem',
+        'height41': '2.563rem',
         'height67': '4.188rem',
-        'height66': '4.125rem'
+        'height66': '4.125rem',
+        'height68': '4.25rem'
       },
       letterSpacing: {
         'xlwidest': '0.285em',
         'sp20': '1.25rem',
         'sp28': '1.75rem'
       },
+      screens:{
+        'sm2': '1440px',
+        'sm3': '1920px',
+      }
       
     }
   },
