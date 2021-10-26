@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="bg-92_green">
-      <nav className="grid grid-cols-12 px-1 gap-x-2 md:mx-7 md:px-0 md:gap-x-2 lg:mx-4c lg:gap-x-4">
+      <nav className="grid grid-cols-12 px-1 gap-x-2 md:mx-7 md:px-0 md:gap-x-2 lg:mx-4c lg:gap-x-4 sm2:gap-x-1 sm2:mx-10">
         <div className={`col-start-4 col-end-10 block mx-auto mt-5 mb-3b md:mb-9 md:mt-6b lg:col-start-3 lg:col-end-11 lg:col-span-8 lg:mt-16 lg:mb-5e sm2:mb-5dd ${textColor}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
           <Link to='/'>
             <ReactLogo className="w-full " />
