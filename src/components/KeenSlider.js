@@ -22,8 +22,8 @@ const KeenSlider = ({ imagesArray, title }) => {
   // w-1/2 w-1/3 w-1/4
 
   return (
-    <div className="col-span-full mb-2 lg:mb-5a " id={isHome ? "rooms" : ''}>
-      <div className="navigation-wrapper mb-2 md:mb-3b lg:mb-5a ">
+    <div className="col-span-full mb-2 lg:mb-5a sm2:mb-4 sm2:relative" id={isHome ? "rooms" : ''}>
+      <div className="navigation-wrapper mb-2 md:mb-3b lg:mb-5a sm2:mb-0">
         <div ref={sliderRef} className="keen-slider w-screen">
           {imagesArray.map((images, idx) => (
             <div
@@ -44,7 +44,7 @@ const KeenSlider = ({ imagesArray, title }) => {
         </div>
       </div>
       {slider && (
-        <div className="flex justify-center space-x-0.5 lg:space-x-2">
+        <div className="flex justify-center space-x-0.5 lg:space-x-2 sm2:mb-0 sm2:absolute sm2:z-10 sm2:bottom-4 sm2:-inset-x-full">
           {[...Array(slider.details().size).keys()].map((idx) => {
             return <KeenSliderDot
                       active={currentSlide === idx} key={idx} 
