@@ -16,7 +16,7 @@ import {ReactComponent as HairDryer} from '../../images/amenities/hair_dryer.svg
 const Amenities = () => {
  
   return (
-    <div className="col-start-2 col-end-9 flex flex-row justify-between space-x-2 md:col-end-8 sm2:col-start-3 sm2:justify-start sm2:space-x-5">
+    <div className="col-start-2 col-end-9 flex flex-row justify-between space-x-2 md:col-end-8 sm2:col-start-3 sm2:justify-start sm2:space-x-5 sm3:col-start-4 sm3:col-end-10">
       <WiFi className="md:w-8 lg:w-12"/>
       <Breakfast className="md:w-8 lg:w-12"/>
       <AirConditioner className="md:w-8 lg:w-12"/>
