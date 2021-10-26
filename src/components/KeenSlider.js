@@ -22,8 +22,8 @@ const KeenSlider = ({ imagesArray, title }) => {
   // w-1/2 w-1/3 w-1/4
 
   return (
-    <div className="col-span-full mb-2 lg:mb-5a" id={isHome ? "rooms" : ''}>
-      <div className="navigation-wrapper mb-2 md:mb-3b lg:mb-5a">
+    <div className="col-span-full mb-2 lg:mb-5a " id={isHome ? "rooms" : ''}>
+      <div className="navigation-wrapper mb-2 md:mb-3b lg:mb-5a ">
         <div ref={sliderRef} className="keen-slider w-screen">
           {imagesArray.map((images, idx) => (
             <div
