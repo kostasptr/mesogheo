@@ -38,7 +38,7 @@ const Footer = () => {
 
       </div>
 
-      <div className="col-start-6 col-end-8 flex flex-row justify-between mb-3a md:mb-5b lg:mb-5e sm2:mb-0 sm2:col-start-12 sm2:col-end-13 sm3:col-start-11 sm3:col-end-12 sm3:mt-116">
+      <div className="col-start-6 col-end-8 flex flex-row justify-between mb-3a md:mb-5b lg:mb-5e sm2:mb-0 sm2:mt-116 sm2:col-start-12 sm2:col-end-13 sm3:col-start-11 sm3:col-end-12 sm3:mt-116">
         <a href="https://www.instagram.com/mesogheo/" target="_blank" rel="noopener noreferrer" className={`w-3a md:w-5 lg:w-5c ${inTextColor}`} onMouseEnter={inToggleHover} onMouseLeave={inToggleHover}>
           <InstagramIcon />
         </a>
