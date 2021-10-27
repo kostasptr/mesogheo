@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.277133ca.chunk.css",
-    "main.js": "/static/js/main.fbed9537.chunk.js",
-    "main.js.map": "/static/js/main.fbed9537.chunk.js.map",
+    "main.js": "/static/js/main.c967c2fb.chunk.js",
+    "main.js.map": "/static/js/main.c967c2fb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66c2a8d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.66c2a8d5.js.map",
     "static/css/2.ce4ae040.chunk.css": "/static/css/2.ce4ae040.chunk.css",
-    "static/js/2.2ba3c124.chunk.js": "/static/js/2.2ba3c124.chunk.js",
-    "static/js/2.2ba3c124.chunk.js.map": "/static/js/2.2ba3c124.chunk.js.map",
+    "static/js/2.3dc7bf17.chunk.js": "/static/js/2.3dc7bf17.chunk.js",
+    "static/js/2.3dc7bf17.chunk.js.map": "/static/js/2.3dc7bf17.chunk.js.map",
     "static/js/3.303090ab.chunk.js": "/static/js/3.303090ab.chunk.js",
     "static/js/3.303090ab.chunk.js.map": "/static/js/3.303090ab.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ce4ae040.chunk.css.map": "/static/css/2.ce4ae040.chunk.css.map",
     "static/css/main.277133ca.chunk.css.map": "/static/css/main.277133ca.chunk.css.map",
-    "static/js/2.2ba3c124.chunk.js.LICENSE.txt": "/static/js/2.2ba3c124.chunk.js.LICENSE.txt",
+    "static/js/2.3dc7bf17.chunk.js.LICENSE.txt": "/static/js/2.3dc7bf17.chunk.js.LICENSE.txt",
     "static/media/air_conditioner.194dd544.svg": "/static/media/air_conditioner.194dd544.svg",
     "static/media/arizona.661ebe4c.jpg": "/static/media/arizona.661ebe4c.jpg",
     "static/media/arizona_1.661ebe4c.jpg": "/static/media/arizona_1.661ebe4c.jpg",
@@ -39,6 +39,8 @@
     "static/media/logo-instagram.109e121f.svg": "/static/media/logo-instagram.109e121f.svg",
     "static/media/logo_mesogheo.d34980d6.svg": "/static/media/logo_mesogheo.d34980d6.svg",
     "static/media/shower.d5715ee4.svg": "/static/media/shower.d5715ee4.svg",
+    "static/media/sqrm20.e33fbebe.svg": "/static/media/sqrm20.e33fbebe.svg",
+    "static/media/sqrm55.9c2de736.svg": "/static/media/sqrm55.9c2de736.svg",
     "static/media/tv.e6a27680.svg": "/static/media/tv.e6a27680.svg",
     "static/media/verde.76f2fd7e.jpg": "/static/media/verde.76f2fd7e.jpg",
     "static/media/verde_1.10605d6f.jpg": "/static/media/verde_1.10605d6f.jpg",
@@ -64,8 +66,8 @@
   "entrypoints": [
     "static/js/runtime-main.66c2a8d5.js",
     "static/css/2.ce4ae040.chunk.css",
-    "static/js/2.2ba3c124.chunk.js",
+    "static/js/2.3dc7bf17.chunk.js",
     "static/css/main.277133ca.chunk.css",
-    "static/js/main.fbed9537.chunk.js"
+    "static/js/main.c967c2fb.chunk.js"
   ]
 }
