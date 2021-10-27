@@ -5,7 +5,7 @@ const RoomsLinks = () => {
 
   return (
     <>
-      <div className="mb-1 font-serif not-italic font-normal flex justify-between col-start-5 col-end-9 md:mb-3b md:mt-3b lg:mb-3 lg:mt-0 sm2:hidden">
+      <div className="mb-1 font-serif not-italic font-normal flex justify-between col-start-5 col-end-9 md:mb-3b lg:mb-3 lg:mt-0 sm2:hidden">
         <Link to="/arizona" className={`text-small12 leading-4 text-22_green hover:text-pink md:text-xl md:leading-7 lg:text-f24 lg:leading-8 ${pathname==='/arizona' ? "line-through" : ""}`} >ARIZONA</Link>
         <Link to="/viola" className={`text-small12 text-22_green hover:text-pink md:text-xl md:leading-7 lg:text-f24 lg:leading-8 ${pathname==='/viola' ? "line-through" : ""}`}>VIOLA</Link>
       </div>

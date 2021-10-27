@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="bg-92_green">
-      <nav className="grid grid-cols-12 px-1 gap-x-2 min-h-0 min-w-0 md:mx-7 md:px-0 md:gap-x-2 lg:mx-4c lg:gap-x-4 sm2:gap-x-1 sm2:mx-10  sm3:gap-x-8 sm3:mx-16 sm3:justify-items-stretch">
+      <nav className="grid grid-cols-12 mx-1 gap-x-2 min-h-0 min-w-0 md:mx-7 md:px-0 md:gap-x-2 lg:mx-4c lg:gap-x-4 sm2:gap-x-1 sm2:mx-10  sm3:gap-x-8 sm3:mx-16 sm3:justify-items-stretch">
 
 
         <div className={`col-start-4 col-end-10 block mx-auto mt-5 mb-3b min-h-0 min-w-0 md:mb-9 md:mt-6b lg:col-start-3 lg:col-end-11 lg:col-span-8 lg:mt-16 lg:mb-5e sm2:flex  sm2:justify-start sm2:col-start-2 sm2:col-end-6 sm2:mb-5dd sm3:col-start-2 sm3:col-end-6 sm3:mb-67 ${textColor}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
@@ -38,7 +38,7 @@ const Header = () => {
         </div>  
 
 
-        <div className="col-start-3 col-end-11 flex text-base leading-5 justify-between pb-4 md:pb-0 md:mb-8 md:text-2.5xl md:leading-9 lg:mb-10 lg:text-base2 lg:leading-10 sm2:col-start-2 sm2:col-end-7 sm2:text-base2 sm2:mb-5b2 sm3:col-start-2 sm3:col-end-6 sm3:text-f36 sm3:mb-6">
+        <div className="col-start-3 col-end-11 flex text-base leading-5 justify-between mb-4 md:pb-0 md:mb-8 md:text-t28 md:leading-9 lg:mb-10 lg:text-t28 lg:leading-10 sm2:col-start-2 sm2:col-end-7 sm2:text-base2 sm2:mb-5b2 sm3:col-start-2 sm3:col-end-6 sm3:text-f36 sm3:mb-6">
           <NavLink link="/#rooms" hash={true} text="ROOMS"/>
           <NavLink link="/about" text="ABOUT" />
           <NavLink link="/book" text="BOOK" cta={true} />
