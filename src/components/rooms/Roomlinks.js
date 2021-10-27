@@ -15,7 +15,7 @@ const RoomsLinks = () => {
         <Link to="/verde" className={`text-small12 text-22_green hover:text-pink md:text-xl md:leading-7 lg:text-f24 lg:leading-8 ${pathname==='/verde' ? "line-through" : ""}`}>VERDE</Link>
       </div>
 
-      <div className="hidden sm2:flex sm2:font-serif sm2:not-italic sm2:font-normal sm2:text-2.5xl sm2:leading-8 sm2:mb-4 sm2:mt-4 sm2:col-start-4 sm2:col-end-10 sm2:flex sm2:justify-between sm3:text-base2">
+      <div className="hidden sm2:text-22_green sm2:flex sm2:font-serif sm2:not-italic sm2:font-normal sm2:text-2.5xl sm2:leading-8 sm2:mb-4 sm2:mt-4 sm2:col-start-4 sm2:col-end-10 sm2:flex sm2:justify-between sm3:text-base2">
         <Link to="/arizona" className={`  ${pathname==='/arizona' ? "line-through" : ""}`} >ARIZONA</Link>
         <Link to="/viola" className={` ${pathname==='/viola' ? "line-through" : ""}`}>VIOLA</Link>
         <Link to="/blu" className={` ${pathname==='/blu' ? "line-through" : ""}`}>BLU</Link>
