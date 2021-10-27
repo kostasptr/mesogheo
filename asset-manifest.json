@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fe91e7b.chunk.css",
-    "main.js": "/static/js/main.22a3252c.chunk.js",
-    "main.js.map": "/static/js/main.22a3252c.chunk.js.map",
+    "main.css": "/static/css/main.971b2197.chunk.css",
+    "main.js": "/static/js/main.65d89208.chunk.js",
+    "main.js.map": "/static/js/main.65d89208.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66c2a8d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.66c2a8d5.js.map",
     "static/css/2.ce4ae040.chunk.css": "/static/css/2.ce4ae040.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.303090ab.chunk.js.map": "/static/js/3.303090ab.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ce4ae040.chunk.css.map": "/static/css/2.ce4ae040.chunk.css.map",
-    "static/css/main.2fe91e7b.chunk.css.map": "/static/css/main.2fe91e7b.chunk.css.map",
+    "static/css/main.971b2197.chunk.css.map": "/static/css/main.971b2197.chunk.css.map",
     "static/js/2.3dc7bf17.chunk.js.LICENSE.txt": "/static/js/2.3dc7bf17.chunk.js.LICENSE.txt",
     "static/media/air_conditioner.194dd544.svg": "/static/media/air_conditioner.194dd544.svg",
     "static/media/arizona.661ebe4c.jpg": "/static/media/arizona.661ebe4c.jpg",
@@ -31,8 +31,8 @@
     "static/media/blu_4.c14697f3.jpg": "/static/media/blu_4.c14697f3.jpg",
     "static/media/blu_5.e612cb29.jpg": "/static/media/blu_5.e612cb29.jpg",
     "static/media/breakfast.0761369e.svg": "/static/media/breakfast.0761369e.svg",
-    "static/media/dot-active.f126f927.svg": "/static/media/dot-active.f126f927.svg",
-    "static/media/dot.480fcc83.svg": "/static/media/dot.480fcc83.svg",
+    "static/media/dot-active.cb065cab.svg": "/static/media/dot-active.cb065cab.svg",
+    "static/media/dot.01064b87.svg": "/static/media/dot.01064b87.svg",
     "static/media/hair_dryer.b4bda9af.svg": "/static/media/hair_dryer.b4bda9af.svg",
     "static/media/hero_image.f6837322.jpg": "/static/media/hero_image.f6837322.jpg",
     "static/media/logo-facebook.7f315e44.svg": "/static/media/logo-facebook.7f315e44.svg",
@@ -67,7 +67,7 @@
     "static/js/runtime-main.66c2a8d5.js",
     "static/css/2.ce4ae040.chunk.css",
     "static/js/2.3dc7bf17.chunk.js",
-    "static/css/main.2fe91e7b.chunk.css",
-    "static/js/main.22a3252c.chunk.js"
+    "static/css/main.971b2197.chunk.css",
+    "static/js/main.65d89208.chunk.js"
   ]
 }
