@@ -7,10 +7,10 @@ import About from './components/About';
 import Book from './components/Book';
 import Footer from './components/Footer';
 import FAQ from './components/FAQ';
-import Arizona from './components/rooms/arizona';
-import Blu from './components/rooms/blu';
-import Verde from './components/rooms/verde';
-import Viola from './components/rooms/viola';
+import Arizona from './components/rooms/Arizona';
+import Blu from './components/rooms/Blu';
+import Verde from './components/rooms/Verde';
+import Viola from './components/rooms/Viola';
 import './App.css';
 
 function App() {
