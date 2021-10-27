@@ -72,7 +72,7 @@ module.exports = {
         'small22': '1.375rem',
         'f24': '1.5rem',
         'f26': '1.625rem',
-        '2.5xl': '1.75rem',
+        't28': '1.750rem',
         'base2': '2rem',
         'f36': '2.25rem',
         'f3.25': '3.25rem',
