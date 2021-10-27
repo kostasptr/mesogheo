@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6742313d.chunk.css",
-    "main.js": "/static/js/main.1873b682.chunk.js",
-    "main.js.map": "/static/js/main.1873b682.chunk.js.map",
+    "main.css": "/static/css/main.277133ca.chunk.css",
+    "main.js": "/static/js/main.a6171943.chunk.js",
+    "main.js.map": "/static/js/main.a6171943.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66c2a8d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.66c2a8d5.js.map",
     "static/css/2.ce4ae040.chunk.css": "/static/css/2.ce4ae040.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.303090ab.chunk.js.map": "/static/js/3.303090ab.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ce4ae040.chunk.css.map": "/static/css/2.ce4ae040.chunk.css.map",
-    "static/css/main.6742313d.chunk.css.map": "/static/css/main.6742313d.chunk.css.map",
+    "static/css/main.277133ca.chunk.css.map": "/static/css/main.277133ca.chunk.css.map",
     "static/js/2.2ba3c124.chunk.js.LICENSE.txt": "/static/js/2.2ba3c124.chunk.js.LICENSE.txt",
-    "static/media/air_conditioner.7e43591e.svg": "/static/media/air_conditioner.7e43591e.svg",
+    "static/media/air_conditioner.194dd544.svg": "/static/media/air_conditioner.194dd544.svg",
     "static/media/arizona.661ebe4c.jpg": "/static/media/arizona.661ebe4c.jpg",
     "static/media/arizona_1.661ebe4c.jpg": "/static/media/arizona_1.661ebe4c.jpg",
     "static/media/arizona_2.38ff1b99.jpg": "/static/media/arizona_2.38ff1b99.jpg",
@@ -30,16 +30,16 @@
     "static/media/blu_3.ffa78e43.jpg": "/static/media/blu_3.ffa78e43.jpg",
     "static/media/blu_4.c14697f3.jpg": "/static/media/blu_4.c14697f3.jpg",
     "static/media/blu_5.e612cb29.jpg": "/static/media/blu_5.e612cb29.jpg",
-    "static/media/breakfast.46744d5f.svg": "/static/media/breakfast.46744d5f.svg",
+    "static/media/breakfast.0761369e.svg": "/static/media/breakfast.0761369e.svg",
     "static/media/dot-active.f126f927.svg": "/static/media/dot-active.f126f927.svg",
     "static/media/dot.480fcc83.svg": "/static/media/dot.480fcc83.svg",
-    "static/media/hair_dryer.caf6b20b.svg": "/static/media/hair_dryer.caf6b20b.svg",
+    "static/media/hair_dryer.b4bda9af.svg": "/static/media/hair_dryer.b4bda9af.svg",
     "static/media/hero_image.f6837322.jpg": "/static/media/hero_image.f6837322.jpg",
-    "static/media/logo-facebook.7ae0f37e.svg": "/static/media/logo-facebook.7ae0f37e.svg",
-    "static/media/logo-instagram.9134907d.svg": "/static/media/logo-instagram.9134907d.svg",
+    "static/media/logo-facebook.7f315e44.svg": "/static/media/logo-facebook.7f315e44.svg",
+    "static/media/logo-instagram.109e121f.svg": "/static/media/logo-instagram.109e121f.svg",
     "static/media/logo_mesogheo.d34980d6.svg": "/static/media/logo_mesogheo.d34980d6.svg",
-    "static/media/shower.0e790784.svg": "/static/media/shower.0e790784.svg",
-    "static/media/tv.0450ab1e.svg": "/static/media/tv.0450ab1e.svg",
+    "static/media/shower.d5715ee4.svg": "/static/media/shower.d5715ee4.svg",
+    "static/media/tv.e6a27680.svg": "/static/media/tv.e6a27680.svg",
     "static/media/verde.76f2fd7e.jpg": "/static/media/verde.76f2fd7e.jpg",
     "static/media/verde_1.10605d6f.jpg": "/static/media/verde_1.10605d6f.jpg",
     "static/media/verde_2.160d4a34.jpg": "/static/media/verde_2.160d4a34.jpg",
@@ -59,13 +59,13 @@
     "static/media/viola_7.104882ad.jpg": "/static/media/viola_7.104882ad.jpg",
     "static/media/viola_8.a84c40c8.jpg": "/static/media/viola_8.a84c40c8.jpg",
     "static/media/viola_9.7dbc88e7.jpg": "/static/media/viola_9.7dbc88e7.jpg",
-    "static/media/wifi.587db80a.svg": "/static/media/wifi.587db80a.svg"
+    "static/media/wifi.5b22529f.svg": "/static/media/wifi.5b22529f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.66c2a8d5.js",
     "static/css/2.ce4ae040.chunk.css",
     "static/js/2.2ba3c124.chunk.js",
-    "static/css/main.6742313d.chunk.css",
-    "static/js/main.1873b682.chunk.js"
+    "static/css/main.277133ca.chunk.css",
+    "static/js/main.a6171943.chunk.js"
   ]
 }
