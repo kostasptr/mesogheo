@@ -15,35 +15,35 @@ const Arizona = () => {
   const imagesArray = [
     [{
       imgUrl: arizona_1,
-      alt: ''
+      alt: 'patio of Arizona room'
     }],
     [{
       imgUrl: arizona_2,
-      alt: ''
+      alt: 'Arizona room door'
     }],
     [{
       imgUrl: arizona_3,
-      alt: ''
+      alt: 'inside space of Arizona room'
     }],
     [{
       imgUrl: arizona_4,
-      alt: ''
+      alt: 'vintage wardrobe of Arizona room'
     }],
     [{
       imgUrl: arizona_5,
-      alt: ''
+      alt: 'wardrobe detail of Arizona room'
     }],
     [{
       imgUrl: arizona_6,
-      alt: ''
+      alt: 'dwarf side tables decoration of Arizona room'
     }],
     [
       {
         imgUrl: arizona_7,
-        alt: ''
+        alt: 'bathroom of Arizona room'
       },{
         imgUrl: arizona_8,
-        alt: ''
+        alt: 'double shower of Arizona room'
       }
     ]
   ];

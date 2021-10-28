@@ -15,38 +15,39 @@ const Verde = () => {
   const imagesArray = [
     [{
       imgUrl: verde_1,
-      alt: ''
+      alt: 'inside space of Verde room',
+      shadow: true
     }],
     [{
       imgUrl: verde_2,
-      alt: ''
+      alt: 'fireplace of Verde room'
     }],
     [
       {
         imgUrl: verde_3,
-        alt: ''
+        alt: 'living room details of Verde room'
       },{
         imgUrl: verde_4,
-        alt: ''
+        alt: 'stairs to the loft bedroom of Verde room'
       }
     ],
     [{
       imgUrl: verde_5,
-      alt: ''
+      alt: 'loft bedroom of Verde room'
     }],
     [
       {
         imgUrl: verde_6,
-        alt: ''
+        alt: 'fridge of Verde room'
       },
       {
         imgUrl: verde_7,
-        alt: ''
+        alt: 'bathroom of Verde room'
       }
     ],
     [{
       imgUrl: verde_8,
-      alt: ''
+      alt: 'olive trees of Mesogheo'
     }]
   ];
 

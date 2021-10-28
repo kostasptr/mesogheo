@@ -12,24 +12,24 @@ const Blu = () => {
   const imagesArray = [
     [{
       imgUrl: blu_1,
-      alt: ''
+      alt: 'Window view of Blu room'
     }],
     [{
       imgUrl: blu_2,
-      alt: ''
+      alt: 'inside space of Blu room'
     }],
     [
       {
         imgUrl: blu_3,
-        alt: ''
+        alt: 'bathroom with bathtub of Blu room'
       },{
         imgUrl: blu_4,
-        alt: ''
+        alt: 'entrance to Blu room'
       }
     ],
     [{
       imgUrl: blu_5,
-      alt: ''
+      alt: 'olive trees of Mesogheo'
     }]
   ];
 

@@ -17,41 +17,41 @@ const Viola = () => {
     [
       {
         imgUrl: viola_1,
-        alt: ''
+        alt: 'stylish soap holder of Viola room'
       },{
         imgUrl: viola_2,
-        alt: ''
+        alt: 'entrance of Viola room'
       }
     ],
     [{
       imgUrl: viola_3,
-      alt: ''
+      alt: 'inside space of Viola room'
     }],
     [{
       imgUrl: viola_4,
-      alt: ''
+      alt: 'loft bedroom of Viola room'
     }],
     [
       {
         imgUrl: viola_5,
-        alt: ''
+        alt: 'decorative wooden stair of Viola room'
       },{
         imgUrl: viola_6,
-        alt: ''
+        alt: 'overview with fireplace of Viola room'
       }
     ],
     [
       {
         imgUrl: viola_7,
-        alt: ''
+        alt: 'bathroom of Viola room'
       },{
         imgUrl: viola_8,
-        alt: ''
+        alt: 'double shower of Viola room'
       }
     ],
     [{
       imgUrl: viola_9,
-      alt: ''
+      alt: 'sunset outside of Viola room'
     }]
   ];
 
