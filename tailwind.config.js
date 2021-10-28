@@ -28,6 +28,7 @@ module.exports = {
     },
     extend: {
       spacing: {
+        '0.5': '4px',
         '1': '8px',
         '2': '12px',
         '2a': '13px',
@@ -99,6 +100,9 @@ module.exports = {
       screens:{
         'sm2': '1440px',
         'sm3': '1920px',
+      },
+      dropShadow: {
+        '0.5': '0 1px 1px rgba(0, 0, 0, 0.25)',
       }
       
     }

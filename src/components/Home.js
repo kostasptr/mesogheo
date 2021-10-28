@@ -22,7 +22,8 @@ const Home = () => {
     [{
       imgUrl: verde,
       alt: '',
-      title: 'VERDE'
+      title: 'VERDE',
+      shadow: true
     }],
     [{
       imgUrl: blu,

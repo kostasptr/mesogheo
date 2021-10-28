@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import NavLink from './NavLink';
 import {ReactComponent as ReactLogo} from '../images/logo_mesogheo.svg';
 
