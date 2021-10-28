@@ -44,7 +44,7 @@ const KeenSlider = ({ imagesArray, title }) => {
         </div>
       </div>
       {slider && (
-        <div className="flex justify-center space-x-0.5 md:space-x-1 lg:space-x-2 sm2:mb-0 sm2:absolute sm2:z-10 sm2:bottom-4 sm2:-inset-x-full">
+        <div className="flex justify-center space-x-0.5 md:space-x-1 lg:space-x-2 sm2:mb-0 sm2:absolute sm2:z-10 sm2:bottom-4 sm2:-inset-x-full  h-2.5 md:h-3 lg:h-4">
           {[...Array(slider.details().size).keys()].map((idx) => {
             return <KeenSliderDot
                       active={currentSlide === idx} key={idx} 
