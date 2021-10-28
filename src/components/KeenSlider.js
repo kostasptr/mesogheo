@@ -38,7 +38,7 @@ const KeenSlider = ({ imagesArray, title }) => {
                   return htmlCode;
                 }
               )}
-              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-serif font-medium text-2.5xl text-92_green text-opacity-60 tracking-xlwidest leading-tight md:text-f3.25 md:font-medium md:leading-height67 md:tracking-sp20 lg:text-f4 lg:tracking-sp28 lg:leading-height66 sm2:text-7xl sm2:tracking-5 sm2:leading-height68 sm3:text-f5">{title || images[0].title}</p>
+              <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-serif font-medium text-t28 text-92_green text-opacity-60 tracking-xlwidest leading-tight md:text-f3.25 md:font-medium md:leading-height67 md:tracking-sp20 lg:text-f4 lg:tracking-sp28 lg:leading-height66 sm2:text-7xl sm2:tracking-5 sm2:leading-height68 sm3:text-f5">{title || images[0].title}</p>
             </div>
           ))}
         </div>
