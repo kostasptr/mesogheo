@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Book = () => {
 	return (
@@ -13,7 +14,7 @@ const Book = () => {
 				<p className="mb-2 md:mb-3b sm2:mb-4 sm3:mb-4b">VERDE LOFT / 140€</p>
 				<p className="mb-2 md:mb-3b sm2:mb-4 sm3:mb-4b">*Price per night per room<br></br>*Breakfast included in your booking</p>
 				<p className="mb-4 md:mb-8 lg:mb-5c sm2:mb-4 sm3:mb-6b">*Check in from 15.00 to 20.00<br></br>*Check out until 12.00</p>
-				<p className="text-center italic sm2:non-italic sm2:text-left">for more information visit our <a href="/faq" target="_blank" rel="noopener noreferrer">FAQ</a> page</p>
+				<p className="text-center sm2:text-left">for more information visit our <Link to="/faq"><span className="italic">FAQ</span></Link> page</p>
 			</div>
 		</div>
 	);
