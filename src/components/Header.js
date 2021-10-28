@@ -43,13 +43,11 @@ const Header = () => {
             </a>
         </div>  
 
-
-        <div className="col-start-3 col-end-11 flex text-base leading-5 justify-between mb-4 md:pb-0 md:mb-8 md:text-t28 md:leading-9 lg:mb-10 lg:text-t28 lg:leading-10 sm2:col-start-2 sm2:col-end-7 sm2:text-base2 sm2:mb-5b2 sm3:col-start-2 sm3:col-end-6 sm3:text-f36 sm3:mb-6">
+        <div className="col-start-3 col-end-11 flex text-base leading-5 justify-between mb-3b md:pb-0 md:mb-8 md:text-t28 md:leading-9 lg:mb-10 lg:text-t28 lg:leading-10 sm2:col-start-2 sm2:col-end-7 sm2:text-base2 sm2:mb-5b2 sm3:col-start-2 sm3:col-end-6 sm3:text-f36 sm3:mb-6">
           <NavLink link="/#rooms" hash={true} text="ROOMS"/>
           <NavLink link="/about" text="ABOUT" />
           <NavLink link="/book" text="BOOK" cta={true} />
         </div>
-
 
       </nav>
     </header>

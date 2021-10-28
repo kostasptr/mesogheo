@@ -45,7 +45,7 @@ const Home = () => {
       
       <KeenSlider imagesArray={imagesArray}/>
 
-      <div className="grid grid-cols-12 gap-x-2 mx-1 md:mx-7 mb-5 md:mb-5b lg:mb-62 lg:mx-4c lg:gap-x-4 sm2:gap-x-1 sm2:mx-10 sm2:mb-60 sm3:gap-x-8 sm3:mx-16 sm3:mb-64">
+      <div className="grid grid-cols-12 gap-x-2 mx-1 md:mx-7 mb-4 md:mb-5b lg:mb-62 lg:mx-4c lg:gap-x-4 sm2:gap-x-1 sm2:mx-10 sm2:mb-60 sm3:gap-x-8 sm3:mx-16 sm3:mb-64">
         <Roomlinks />
 
         <p className="col-start-2 col-end-12 font-sans text-small12 not-italic font-light text-left text-02_green leading-4 md:text-xl md:leading-7   lg:text-2xl lg:leading-8 sm2:col-start-3 sm2:col-end-11 sm2:text-f24 sm2:leading-8 sm3:col-start-4 sm3:col-end-10 sm3:text-f26 sm3:leading-height36 sm3:font-light">
