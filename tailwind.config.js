@@ -40,6 +40,7 @@ module.exports = {
         '4a': '25px',
         '4b': '26px',
         '4c': '28px',
+        '4d': '30px',
         '5': '32px',
         '5aa': '33px',
         '5a': '34px',
@@ -57,7 +58,6 @@ module.exports = {
         '60': '60px',
         '62': '62px',
         '64':'64px',
-        '67': '67px',
         '68':'68px',
         '72':'72px',
         '75': '75px',
@@ -95,7 +95,7 @@ module.exports = {
       letterSpacing: {
         'xlwidest': '0.285em',
         'sp20': '1.25rem',
-        'sp28': '1.75rem'
+        'sp32': '2rem'
       },
       screens:{
         'sm2': '1440px',

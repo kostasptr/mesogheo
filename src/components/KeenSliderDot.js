@@ -11,14 +11,14 @@ const KeenSliderDot = ({ active, onClick }) => {
   if (intViewportWidth<1440){
     return active ? (
       <DotActive
-        className={`cursor-pointer w-2.5 md:w-2a lg:w-3b ${textColor}`}
+        className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColor}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
       />
     ) : (
       <Dot
-        className={`cursor-pointer w-2.5 md:w-2a lg:w-3b ${textColor}`}
+        className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColor}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
@@ -27,14 +27,14 @@ const KeenSliderDot = ({ active, onClick }) => {
   }
     return active ? (
       <DotActive
-        className={`cursor-pointer w-2.5 md:w-2a lg:w-3b ${textColorWide}`}
+        className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColorWide}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
       />
     ) : (
       <Dot
-        className={`cursor-pointer w-2.5 md:w-2a lg:w-3b ${textColorWide}`}
+        className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColorWide}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
