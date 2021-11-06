@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mesogheo.it/sitemap.txt
+Sitemap: https://mesogheo.it/sitemap.xml
