@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Routing, Switch, Route } from 'react-router-dom';
-import ScrollToTop from './helpers/ScrollToTop';
+import { BrowserRouter as Routing, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
@@ -16,20 +15,19 @@ import './App.css';
 function App() {
   return (
     <Routing>
-      <ScrollToTop />
       <div className="h-full flex flex-col">
         <Header />
         <div className="flex-1-0-auto bg-92_green">
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/book" component={Book} />
-            <Route path="/faq" component={FAQ} />
-            <Route path="/arizona" component={Arizona} />
-            <Route path="/blu" component={Blu} />
-            <Route path="/verde" component={Verde} />
-            <Route path="/viola" component={Viola} />
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/book" element={<Book />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/arizona" element={<Arizona />} />
+            <Route path="/blu" element={<Blu />} />
+            <Route path="/verde" element={<Verde />} />
+            <Route path="/viola" element={<Viola />} />
+          </Routes>
         </div>
         <Footer />
       </div>
