@@ -7,6 +7,7 @@ import blu_2 from '../../images/Blu/blu_2.jpg';
 import blu_3 from '../../images/Blu/blu_3.jpg';
 import blu_4 from '../../images/Blu/blu_4.jpg';
 import blu_5 from '../../images/Blu/blu_5.jpg';
+import ScrollToTop from '../../helpers/ScrollToTop';
 
 const Blu = () => {
   const imagesArray = [
@@ -32,6 +33,8 @@ const Blu = () => {
       alt: 'olive trees of Mesogheo'
     }]
   ];
+
+  ScrollToTop();
 
   return (
     <>

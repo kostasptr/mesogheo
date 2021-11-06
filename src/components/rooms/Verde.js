@@ -10,6 +10,7 @@ import verde_5 from '../../images/Verde/verde_5.jpg';
 import verde_6 from '../../images/Verde/verde_6.jpg';
 import verde_7 from '../../images/Verde/verde_7.jpg';
 import verde_8 from '../../images/Verde/verde_8.jpg';
+import ScrollToTop from '../../helpers/ScrollToTop';
 
 const Verde = () => {
   const imagesArray = [
@@ -50,6 +51,8 @@ const Verde = () => {
       alt: 'olive trees of Mesogheo'
     }]
   ];
+
+  ScrollToTop();
 
   return (
     <>

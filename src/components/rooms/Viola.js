@@ -11,6 +11,7 @@ import viola_6 from '../../images/Viola/viola_6.jpg';
 import viola_7 from '../../images/Viola/viola_7.jpg';
 import viola_8 from '../../images/Viola/viola_8.jpg';
 import viola_9 from '../../images/Viola/viola_9.jpg';
+import ScrollToTop from '../../helpers/ScrollToTop';
 
 const Viola = () => {
   const imagesArray = [
@@ -54,6 +55,8 @@ const Viola = () => {
       alt: 'sunset outside of Viola room'
     }]
   ];
+
+  ScrollToTop();
 
   return (
     <>

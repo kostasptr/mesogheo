@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import mesogheoPool from '../images/hero_image.jpg';
 import KeenSlider from './KeenSlider';
 import Roomlinks from './rooms/Roomlinks'
@@ -7,8 +7,11 @@ import blu from '../images/blu.jpg';
 import verde from '../images/verde.jpg';
 import viola1 from '../images/viola_1.jpg';
 import viola2 from '../images/viola_2.jpg';
+import ScrollToTop from '../helpers/ScrollToTop';
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+  const roomsRef = useRef();
   const imagesArray = [
     [{
       imgUrl: arizona,
@@ -37,6 +40,12 @@ const Home = () => {
     }],
   ];
 
+  const hash = useLocation().hash;
+  useEffect(() => {
+    hash === "#rooms" ? setTimeout(() => roomsRef.current.scrollIntoView({ behavior: 'smooth' }), 100) : ScrollToTop();
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <>
       <img src={mesogheoPool} alt="mesogheo hotel" className="col-span-full w-screen mb-2 md:mb-0 sm2:mb-4"/>
@@ -49,7 +58,9 @@ const Home = () => {
         </div>
       </div>
       
-      <KeenSlider imagesArray={imagesArray}/>
+      <div ref={roomsRef}>
+        <KeenSlider imagesArray={imagesArray}/>
+      </div>
 
       <div className="grid grid-cols-12 gap-x-2 mx-1 md:mx-7 mb-4 md:mb-5b lg:mb-6b lg:mx-4c lg:gap-x-4 sm2:gap-x-1 sm2:mx-10 sm2:mb-60 sm3:gap-x-8 sm3:mx-16 sm3:mb-64">
         <Roomlinks />

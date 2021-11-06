@@ -10,6 +10,7 @@ import arizona_5 from '../../images/Arizona/arizona_5.jpg';
 import arizona_6 from '../../images/Arizona/arizona_6.jpg';
 import arizona_7 from '../../images/Arizona/arizona_7.jpg';
 import arizona_8 from '../../images/Arizona/arizona_8.jpg';
+import ScrollToTop from '../../helpers/ScrollToTop';
 
 const Arizona = () => {
   const imagesArray = [
@@ -47,6 +48,8 @@ const Arizona = () => {
       }
     ]
   ];
+  
+  ScrollToTop();
 
   return (
     <>

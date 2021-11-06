@@ -1,6 +1,8 @@
 import React from 'react';
+import ScrollToTop from '../helpers/ScrollToTop';
 
 const FAQ = () => {
+	ScrollToTop();
 
   return (
     <div className="grid grid-cols-12 mx-1 gap-x-2 mb-4 md:px-0 md:mx-7 md:mb-6b lg:mx-4c lg:gap-x-4 lg:mb-62 sm2:gap-x-1 sm2:mx-10 sm2:px-0 sm2:mb-60 sm3:gap-x-8 sm3:mx-16 sm3:mb-64">
