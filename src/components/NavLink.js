@@ -14,10 +14,10 @@ const NavLink = ({link, hash=false, text, cta=false}) => {
     hash ? hashLinkRef.current.click() : linkRef.current.click();
   }
 
-  const pathname = useLocation().pathname;
+  const location = useLocation();
 
   return (
-    <li className={`inline font-serif text-base not-italic font-normal leading-5 tracking-normal text-center md:text-t28 md:leading-height36 lg:text-base2 lg:leading-5c sm2:text-base2 sm2:leading-height41 sm2:font-normal ${textColor} ${pathname===link ? "line-through" : ""}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover} onTouchEnd={touch}>
+    <li className={`inline font-serif text-base not-italic font-normal leading-5 tracking-normal text-center md:text-t28 md:leading-height36 lg:text-base2 lg:leading-5c sm2:text-base2 sm2:leading-height41 sm2:font-normal ${textColor} ${(hash && `/${location.hash}` === link) || location.pathname===link ? "line-through" : ""}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover} onTouchEnd={touch}>
       {hash ? <HashLink ref={hashLinkRef} smooth to={link}> {text} </HashLink> : <Link ref={linkRef} to={link}> {text} </Link>}
     </li>
   );
