@@ -1,4 +1,3 @@
-import React from 'react';
 import ScrollToTop from '../helpers/ScrollToTop';
 
 const About = () => {
