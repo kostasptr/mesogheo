@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import mesogheoPool from '../images/hero_image.jpg';
 import KeenSlider from './KeenSlider';
-import Roomlinks from './rooms/Roomlinks'
+import Roomlinks from './rooms/_Roomlinks'
 import arizona from '../images/arizona.jpg';
 import blu from '../images/blu.jpg';
 import verde from '../images/verde.jpg';
@@ -48,7 +48,7 @@ const Home = () => {
 
   return (
     <>
-      <img src={mesogheoPool} alt="mesogheo hotel" className="col-span-full w-screen mb-2 md:mb-0 sm2:mb-4"/>
+    <img src={mesogheoPool} alt="mesogheo hotel" className="col-span-full w-screen mb-2 md:mb-0 sm2:mb-4"/>
 
       <div className="grid grid-cols-12 gap-x-2 mx-1 md:mx-7 lg:mx-4c lg:gap-x-4 lg:mt-0 lg:mb-0 sm2:gap-x-1 sm2:mx-10 sm3:gap-x-8 sm3:mx-16">
         <div className="col-start-2 col-end-12 mb-4 font-sans text-small12 not-italic font-light leading-4 text-left text-02_green md:text-xl md:leading-7 md:mt-3b md:mb-5b lg:text-2xl lg:leading-8 lg:mt-4d lg:mb-5c lg:col-start-3 lg:col-end-11 sm2:text-f24 sm2:leading-8 sm2:mt-0 sm2:mb-5b2 sm3:col-start-4 sm3:col-end-10 sm3:text-f26 sm3:leading-height36 sm3:font-light">

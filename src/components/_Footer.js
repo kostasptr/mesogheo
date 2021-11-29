@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Link } from "react-router-dom";
 import {ReactComponent as FacebookIcon} from "../images/logo-facebook.svg";
 import {ReactComponent as InstagramIcon} from "../images/logo-instagram.svg";

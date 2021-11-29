@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import NavLink from './NavLink';
+import NavLink from './_NavLink';
 import {ReactComponent as ReactLogo} from '../images/logo_mesogheo.svg';
 
 const Header = () => {

@@ -1,15 +1,16 @@
-import React from 'react';
 import { BrowserRouter as Routing, Routes, Route } from 'react-router-dom';
+import Header from './components/_Header';
+import Footer from './components/_Footer';
+
 import Home from './components/Home';
-import Header from './components/Header';
 import About from './components/About';
 import Book from './components/Book';
-import Footer from './components/Footer';
 import FAQ from './components/FAQ';
 import Arizona from './components/rooms/Arizona';
 import Blu from './components/rooms/Blu';
 import Verde from './components/rooms/Verde';
 import Viola from './components/rooms/Viola';
+
 import './App.css';
 
 function App() {
