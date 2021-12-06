@@ -1,48 +1,58 @@
 import { useState } from "react";
-import {ReactComponent as DotActive} from "../images/carousel-navigation/dot-active.svg";
-import {ReactComponent as Dot} from "../images/carousel-navigation/dot.svg";
+import {ReactComponent as DotActiveImg} from "../../images/carousel-navigation/dot-active.svg";
+import {ReactComponent as DotImg} from "../../images/carousel-navigation/dot.svg";
 
-const KeenSliderDot = ({ active, onClick }) => {
+const Dot = ({ active, onClick }) => {
   const [isHovered, setHovered] = useState(false);
   let intViewportWidth = window.innerWidth;
-  const textColor = isHovered ? "text-pink" : "text-22_green";
-  const textColorWide = isHovered ? "text-pink" : "text-92_green";
+  const textColor = isHovered ? "text-pink" : "";
+  const textColorWide = isHovered ? "text-pink" : "";
   const toggleHover = () => setHovered(!isHovered);
-  if (intViewportWidth<1440){
+
+  const touch = (e) => {
+    e.preventDefault();
+    onClick();
+  }
+
+  if (intViewportWidth<1024){
     return active ? (
-      <DotActive
+      <DotActiveImg
         className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColor}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
+        onTouchEnd={touch}
       />
     ) : (
-      <Dot
+      <DotImg
         className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColor}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
+        onTouchEnd={touch}
       />
     );
   }
     return active ? (
-      <DotActive
+      <DotActiveImg
         className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColorWide}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
+        onTouchEnd={touch}
       />
     ) : (
-      <Dot
+      <DotImg
         className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColorWide}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
+        onTouchEnd={touch}
       />
     );
   
 }
 
-export default KeenSliderDot;
+export default Dot;
 
 // && (intViewportWidth < 1440)

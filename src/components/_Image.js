@@ -1,4 +1,4 @@
-const Image = ({path, half = false, alt = "", classes =""}) => {
+const Image = ({path, half = false, alt = "", classes = ""}) => {
   const imagesWidths = [
     360,
     768,
@@ -29,7 +29,7 @@ const Image = ({path, half = false, alt = "", classes =""}) => {
         sizes={sizes}                       
         src={`${path}/image@1280.jpg`} // fallback image
         alt={alt}
-        class={classes}
+        className={classes}
       />
     </picture>
   );

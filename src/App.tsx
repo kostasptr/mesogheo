@@ -3,6 +3,7 @@ import Header from './components/_Header';
 import Footer from './components/_Footer';
 
 import Home from './components/Home';
+import Rooms from './components/Rooms';
 import About from './components/About';
 import Book from './components/Book';
 import FAQ from './components/FAQ';
@@ -18,9 +19,10 @@ function App() {
     <Routing>
       <div className="h-full flex flex-col">
         <Header />
-        <div className="flex-1-0-auto bg-92_green">
+        <div className="flex-1-0-auto">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/rooms" element={<Rooms />} />
             <Route path="/about" element={<About />} />
             <Route path="/book" element={<Book />} />
             <Route path="/faq" element={<FAQ />} />

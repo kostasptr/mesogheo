@@ -1,6 +1,4 @@
-import KeenSlider from '../KeenSlider';
-import Roomlinks from "./_Roomlinks";
-import Amenities from "./_Amenities";
+import ImagesDescRooms from '../_ImagesDescRooms';
 import verde_1 from '../../images/Verde/verde_1.jpg';
 import verde_2 from '../../images/Verde/verde_2.jpg';
 import verde_3 from '../../images/Verde/verde_3.jpg';
@@ -54,16 +52,12 @@ const Verde = () => {
   ScrollToTop();
 
   return (
-    <>
-      <KeenSlider imagesArray={imagesArray} title="VERDE" />
-      <div className="grid grid-cols-12 gap-x-2 mx-1 mb-4 md:mx-7 md:pb-0 md:mb-56 lg:mx-4c lg:gap-x-4 lg:mb-6b sm2:gap-x-1 sm2:mx-10 sm2:mb-60 sm3:gap-x-8 sm3:mx-16 sm3:mb-75">
-        <Roomlinks />
-        <p className="col-start-2 col-end-12 font-sans not-italic leading-4 text-left font-light mb-2 text-small12 text-02_green md:mb-4b md:text-xl md:leading-7 lg:text-2xl lg:leading-8 lg:mb-4d lg:col-start-3 lg:col-end-11 sm2:mb-4 sm3:col-start-4 sm3:col-end-10 sm3:text-f26 sm3:leading-height36 sm3:font-light sm3:mb-5a2">
-        The ideal place for cocooning yourself from routine while sitting on a comfortable sofa in front of the fireplace. Verde is a garden view room, with a double shower cabin & a loft bedroom.
-        </p>
-        <Amenities className="col-start-2 col-end-9 flex flex-row justify-between md:col-end-8" />
-      </div>
-    </>
+    <ImagesDescRooms
+      imagesArray={imagesArray}
+      title='VERDE'
+      description='The ideal place for cocooning yourself from routine while sitting on a comfortable sofa in front of the fireplace. Verde is a garden view room, with a double shower cabin & a loft bedroom.'
+      amenities={true}
+    />
   );
 }
 export default Verde;

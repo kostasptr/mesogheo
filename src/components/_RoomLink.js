@@ -1,9 +1,9 @@
 import { useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const NavLink = ({link, text, cta=false}) => {
+const RoomLink = ({ link }) => {
   const [isHovered, setHovered] = useState(false);
-  const textColor = cta || isHovered ? "text-pink" : "text-22_green";
+  const textColor = isHovered ? "text-pink" : "text-22_green";
   const toggleHover = () => setHovered(!isHovered);
 
   const linkRef = useRef(null);
@@ -12,17 +12,19 @@ const NavLink = ({link, text, cta=false}) => {
     linkRef.current.click();
   }
 
-  const location = useLocation();
+  const pathname = useLocation().pathname;
 
   return (
-    <li
-      className={`inline ${textColor} ${location.pathname===link ? "line-through" : ""}`}
+    <Link
+      ref={linkRef}
+      to={`/${link}`}
+      className={`${textColor} ${pathname===`/${link}` ? "line-through" : ""}`}
       onMouseEnter={toggleHover}
       onMouseLeave={toggleHover}
       onTouchEnd={touch}>
-        <Link ref={linkRef} to={link}>{text}</Link>
-    </li>
+        {link.toUpperCase()}
+    </Link>
   );
 };
 
-export default NavLink;
+export default RoomLink;

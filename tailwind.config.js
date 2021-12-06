@@ -10,6 +10,9 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
+      '2lg': '1152px',
+      // => @media (min-width: 1152px) { ... }
+
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
@@ -29,7 +32,9 @@ module.exports = {
     extend: {
       spacing: {
         '0.5': '4px',
+        '0.75': '6px',
         '1': '8px',
+        '1.5': '10px',
         '2': '12px',
         '2a': '13px',
         '2b': '14px',
@@ -41,6 +46,7 @@ module.exports = {
         '4b': '26px',
         '4c': '28px',
         '4d': '30px',
+        '4.5': '1.875rem',
         '5': '32px',
         '5aa': '33px',
         '5a': '34px',
@@ -61,6 +67,7 @@ module.exports = {
         '68':'68px',
         '72':'72px',
         '75': '75px',
+        '82': '82px',
         '109':'109px',
         '111':'111px',
         '116':'116px',
@@ -76,7 +83,9 @@ module.exports = {
         't28': '1.750rem',
         'base2': '2rem',
         'f36': '2.25rem',
+        '4.25xl': '2.375rem',
         'f3.25': '3.25rem',
+        'f3.625': '3.625rem',
         'f4': '4rem',
         'f5': '5rem'
       },
@@ -88,14 +97,22 @@ module.exports = {
         'height28': '1.75rem',
         'height36': '2.25rem',
         'height41': '2.563rem',
-        'height67': '4.188rem',
+        'height44': '2.75rem',
+        'height46': '2.875rem',
+        'height60': '3.75rem',
         'height66': '4.125rem',
+        'height67': '4.188rem',
         'height68': '4.25rem'
+      },
+      leading: {
+        '4.5': '1.125rem'
       },
       letterSpacing: {
         'xlwidest': '0.285em',
         'sp20': '1.25rem',
-        'sp32': '2rem'
+        'sp24': '1.5rem',
+        'sp32': '2rem',
+        'sp36': '2.25rem'
       },
       screens:{
         'sm2': '1440px',

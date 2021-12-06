@@ -31,39 +31,29 @@ const Footer = () => {
   }
 
   return (
-    <footer className="flex-shrink-0 grid grid-cols-12 px-1 gap-x-2 bg-22_green flex-column items-center md:px-7 md:gap-x-2 lg:px-4c lg:gap-x-4 sm2:gap-x-1 sm2:px-10 sm3:gap-x-8 sm3:px-16">
-    {/* sm2:flex sm2:flex-row sm2:justify-between */}
-      <div className="col-start-2 col-end-12 font-serif text-small font-normal not-italic leading-4 tracking-normal text-center text-92_green pt-4 mb-2 md:col-start-3 md:col-end-11 md:text-lg md:leading-6 md:pt-6 md:mb-3b lg:text-xl lg:pt-0 lg:pb-0 lg:mt-60 lg:mb-5b2 lg:leading-height28  sm2:col-start-2 sm2:col-end-7 sm2:mb-4 sm2:text-left sm2:leading-8 sm3:col-end-6 sm3:text-small22 sm3:mb-4 sm3:mt-0">
-        
-        <div className="hidden sm2:block sm3:block sm3:mt-5dd sm3:mb-1"> 
-          <Link ref={faqRef} to="/faq" className={faqTextColor} onMouseEnter={faqToggleHover} onMouseLeave={faqToggleHover} onTouchEnd={touchFAQ}>FAQ</Link>  
-        </div>
+    <footer className="mt-4 md:mt-4d lg:mt-5c pt-4 md:pt-4d lg:pt-5c 2lg:pt-4d pb-3b md:pb-4d lg:pb-5c 2lg:pb-4d bg-22_green">
+      <div className="mesogheo-grid flex-shrink-0 flex-column items-center">
+        <div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 2lg:col-start-1 2lg:col-end-6 font-serif text-small font-normal not-italic leading-4 tracking-normal text-center text-92_green mb-2 md:mb-3b lg:mb-4d 2lg:mb-0 md:text-lg md:leading-6 lg:text-xl lg:leading-8 2lg:text-left sm2:leading-8 sm3:text-small22">
+          
+          <div className="mb-2 md:mb-3b lg:mb-4d leading-4.5"> 
+            <Link ref={faqRef} to="/faq" className={faqTextColor} onMouseEnter={faqToggleHover} onMouseLeave={faqToggleHover} onTouchEnd={touchFAQ}>FAQ</Link>  
+          </div>
 
-        <div>
-          <p>
-            <a href="https://www.google.com/maps/place/Mesogheo/@41.167586,14.4935449,17z/data=!4m13!1m7!3m6!1s0x133a45678f7637d9:0xf26876cd24a547e0!2zVmlhIFZhbGxlIENvcnJhZG8sIDQwLCA4MjAzMCBNZWxpenphbm8gQk4sIM6Zz4TOsc67zq_OsQ!3b1!8m2!3d41.1659949!4d14.4961413!3m4!1s0x133a45678fb976d1:0xa29b46e8794df151!8m2!3d41.1684235!4d14.4943019" target="_blank" rel="noopener noreferrer" className="hover:text-pink">valle Corrado 40, 82030 Melizzano, Campania, Italy</a>
-          </p>
-          <p>
-            <a href="tel:+39 3887842886" target="_blank" rel="noopener noreferrer" className="hover:text-pink">phone number: +39 3887842886</a>
-          </p>
-          <p className="mb-2 lg:mb-5b2 sm2:mb-0">
+          <div className="">
+            <a href="https://www.google.com/maps/place/Mesogheo/@41.167586,14.4935449,17z/data=!4m13!1m7!3m6!1s0x133a45678f7637d9:0xf26876cd24a547e0!2zVmlhIFZhbGxlIENvcnJhZG8sIDQwLCA4MjAzMCBNZWxpenphbm8gQk4sIM6Zz4TOsc67zq_OsQ!3b1!8m2!3d41.1659949!4d14.4961413!3m4!1s0x133a45678fb976d1:0xa29b46e8794df151!8m2!3d41.1684235!4d14.4943019" target="_blank" rel="noopener noreferrer" className="hover:text-pink">valle Corrado 40, 82030 Melizzano, Campania, Italy</a><br />
+            <a href="tel:+39 3887842886" target="_blank" rel="noopener noreferrer" className="hover:text-pink">phone number: +39 3887842886</a><br />
             <a href="mailto: mesogheo@googlemail.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink">e-mail: mesogheo@googlemail.com</a>
-          </p>
+          </div>
         </div>
 
-        <div className="sm2:hidden sm3:hidden"> 
-          <Link to="/faq" className={faqTextColor} onMouseEnter={faqToggleHover} onMouseLeave={faqToggleHover} onTouchEnd={touchFAQ}>FAQ</Link>  
+        <div className="col-start-6 col-end-8 2lg:col-start-11 2lg:col-end-13 flex flex-row justify-between 2lg:justify-end 2lg:self-end sm2:mt-116 sm3:mt-116">
+          <a href="https://www.instagram.com/mesogheo/" target="_blank" rel="noopener noreferrer" className={`w-3a md:w-5b2 lg:w-5e 2lg:mr-3 ${inTextColor}`}  ref={inRef} onMouseEnter={inToggleHover} onMouseLeave={inToggleHover} onTouchEnd={touchIn}>
+            <InstagramIcon />
+          </a>
+          <a href="https://www.facebook.com/Mesogheo" target="_blank" rel="noopener noreferrer" className={`w-3a md:w-5b2 lg:w-5e ${fbTextColor}`}  ref={fbRef} onMouseEnter={fbToggleHover} onMouseLeave={fbToggleHover} onTouchEnd={touchFb}>
+            <FacebookIcon />
+          </a>
         </div>
-
-      </div>
-
-      <div className="col-start-6 col-end-8 flex flex-row justify-between mb-3a md:mb-5 lg:mb-5b sm2:mb-0 sm2:mt-116 sm2:col-start-11 sm2:col-end-12 sm3:mt-116">
-        <a href="https://www.instagram.com/mesogheo/" target="_blank" rel="noopener noreferrer" className={` w-3a md:w-5b2 lg:w-5e ${inTextColor}`}  ref={inRef} onMouseEnter={inToggleHover} onMouseLeave={inToggleHover} onTouchEnd={touchIn}>
-          <InstagramIcon />
-        </a>
-        <a href="https://www.facebook.com/Mesogheo" target="_blank" rel="noopener noreferrer" className={` w-3a md:w-5b2 lg:w-5e ${fbTextColor}`}  ref={fbRef} onMouseEnter={fbToggleHover} onMouseLeave={fbToggleHover} onTouchEnd={touchFb}>
-          <FacebookIcon />
-        </a>
       </div>
 
     </footer>
