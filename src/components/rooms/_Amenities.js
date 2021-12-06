@@ -5,6 +5,7 @@ import {ReactComponent as TV} from '../../images/amenities/tv.svg';
 import {ReactComponent as Shower} from '../../images/amenities/shower.svg';
 import {ReactComponent as BathTub} from '../../images/amenities/bath_tub.svg';
 import {ReactComponent as HairDryer} from '../../images/amenities/hair_dryer.svg';
+import {ReactComponent as Refrigerator} from '../../images/amenities/refrigerator.svg';
 import {ReactComponent as Sqrm20} from '../../images/amenities/sqrm20.svg';
 import {ReactComponent as Sqrm55} from '../../images/amenities/sqrm55.svg';
 import {useLocation } from "react-router-dom";
@@ -20,6 +21,7 @@ const Amenities = ({ classes }) => {
         <TV className="md:w-8 lg:w-12"/>
         { pathname === '/arizona' ? <Shower className="md:w-8 lg:w-12"/> : <BathTub className="md:w-8 lg:w-12" /> }
         <HairDryer className="md:w-8 lg:w-12"/>
+        { pathname === '/blu' ? '' : <Refrigerator className="md:w-8 lg:w-12"/> }
         {(pathname === '/arizona' || pathname === '/blu') ? <Sqrm20 className="md:w-8 lg:w-12"/> : <Sqrm55 className="md:w-8 lg:w-12"/>}
       </div>
     );
