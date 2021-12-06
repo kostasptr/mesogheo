@@ -1,3 +1,4 @@
+import Instagram from "./_Instagram";
 import Image from './_Image';
 
 const Home = () => {
@@ -12,7 +13,9 @@ const Home = () => {
           <p>The evergreen forest surrounds the property in a way that makes you forget you are at a few kilometers from bustling Naples.</p>
         </div>
 
-        {/* <div className="col-span-full">Instagram</div> */}
+        <div className="col-span-full">
+          <Instagram accessToken="IGQVJYa0RLeHVzRkxqTlF2aG1Ed2FoWkNXVnB0MlhPQ3ljcW9UUE9zaHNiYXhUMmtVZAGFCUEV3TF9McXAwZAWg3LXRfLVlQZAUdEZADNCeDdyQlZAWalJWei0wQzdNbjVxQ1hLM3BxZAnhPUDVpY3Q2WkktQgZDZD" count={6}/>
+        </div>
       </div>
     </>
   );

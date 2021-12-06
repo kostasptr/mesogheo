@@ -10,9 +10,6 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
-      '2lg': '1152px',
-      // => @media (min-width: 1152px) { ... }
-
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
@@ -41,6 +38,7 @@ module.exports = {
         '3': '16px',
         '3a': '18px',
         '3b': '20px',
+        '3c': '22px',
         '4': '24px',
         '4a': '25px',
         '4b': '26px',
@@ -115,6 +113,7 @@ module.exports = {
         'sp36': '2.25rem'
       },
       screens:{
+        '2lg': '1152px',
         'sm2': '1440px',
         'sm3': '1920px',
       },
