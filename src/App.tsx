@@ -21,7 +21,7 @@ function App() {
         <div className="max-w-screen-sm3 w-full m-auto">
           <Header />
         </div>
-        <div className="flex-1-0-auto max-w-screen-sm3 m-auto">
+        <div className="flex-1-0-auto w-full max-w-screen-sm3 m-auto">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/rooms" element={<Rooms />} />

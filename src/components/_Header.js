@@ -15,10 +15,10 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-92_green mt-4 mb-2 md:mb-3 lg:mb-3a 2lg:mb-3 sm2:mb-3 sm3:mb-2">
+    <header className="bg-92_green mt-4 mb-2 md:mb-3 sm2:mb-3 sm3:mb-2">
       <nav className="mesogheo-grid md:px-0 sm3:justify-items-stretch">
         
-        <div className={`col-start-4 col-end-10 md:col-start-5 md:col-end-9 2lg:col-start-1 2lg:col-end-4 w-full mb-3b lg:mb-4 2lg:mb-3b sm3:mb-4d sm2:pl-0 sm2:pr-5dd ${textColor}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover} onTouchEnd={touch}>
+        <div className={`col-start-4 col-end-10 md:col-start-5 md:col-end-9 2lg:col-start-1 2lg:col-end-4 w-full mb-3b 2lg:mb-3b sm3:mb-4d sm2:pl-0 sm2:pr-5dd ${textColor}`} onMouseEnter={toggleHover} onMouseLeave={toggleHover} onTouchEnd={touch}>
           <Link ref={linkRef} to='/'>
             <ReactLogo />
           </Link>
