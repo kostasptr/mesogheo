@@ -14,7 +14,7 @@ const Amenities = ({ classes }) => {
     const pathname = useLocation().pathname;
   
     return (
-      <div className={`flex flex-row justify-between space-x-2 col-start-2 col-end-10 md:col-end-8 sm2:col-start-3 sm2:justify-start sm3:col-start-4 sm3:col-end-10 mt-1.5 md:mt-2 ${classes}`}>
+      <div className={`flex flex-row justify-between space-x-2 col-start-2 col-end-10 md:col-start-3 md:col-end-9 sm2:col-start-3 sm2:justify-start sm3:col-start-4 sm3:col-end-10 mt-1.5 md:mt-2 ${classes}`}>
         <WiFi className="md:w-8 lg:w-12"/>
         <Breakfast className="md:w-8 lg:w-12"/>
         <AirConditioner className="md:w-8 lg:w-12"/>

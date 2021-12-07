@@ -5,7 +5,7 @@ const FAQ = () => {
 
   return (
     <div className="mesogheo-grid">
-			<div className="col-start-2 col-end-12 lg:col-start-3 lg:col-end-11 2lg:col-start-1 2lg:col-end-8 font-sans not-italic text-left tracking-normal text-small12 md:text-xl sm2:text-f24 leading-4 md:leading-7 lg:leading-8 2lg:leading-7 sm2:leading-8 sm3:leading-height36">
+			<div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 2lg:col-start-1 2lg:col-end-8 font-sans not-italic text-left tracking-normal text-small12 md:text-lg lg:text-xl sm2:text-f24 leading-4 md:leading-6 lg:leading-8 2lg:leading-7 sm2:leading-8 sm3:leading-height36">
 				<h3 className="lg:mb-4c sm2:mb-0 sm3:mb-0">FAQ</h3>
 				<p className="mb-2 md:mb-3b lg:mb-4c sm2:mb-4 sm3:mb-4b">From May 1st to October 10th the pool is open to our guests. During the summer season the pool can be used from 9.00 to 20.00</p>
 				<p className="mb-2 md:mb-3b lg:mb-4c sm2:mb-4 sm3:mb-4b">During the winter period first fire (wood, paper, firelighters) is included.</p>

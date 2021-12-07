@@ -17,8 +17,8 @@ const ImagesDescRooms = ({ imagesArray, title = '', description, amenities = fal
 
       <RoomLinks />
 
-      <div className="lg:hidden col-start-2 col-end-12">
-        <p className="font-sans not-italic font-light text-02_green text-small12 md:text-xl leading-4 md:leading-7">
+      <div className="lg:hidden col-start-2 col-end-12 md:col-start-3 md:col-end-11">
+        <p className="font-sans not-italic font-light text-02_green text-small12 md:text-lg lg:text-xl leading-4 md:leading-6">
           {description}
         </p>
       </div>

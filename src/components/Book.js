@@ -6,7 +6,7 @@ const Book = () => {
 	ScrollToTop();
 	return (
 		<div className="mesogheo-grid">
-			<div className="col-start-2 col-end-12 lg:col-start-3 lg:col-end-11 2lg:col-start-1 2lg:col-end-8 font-sans not-italic text-left tracking-normal text-small12 md:text-xl sm2:text-f24 leading-4 md:leading-7 lg:leading-8 2lg:leading-7 sm2:leading-8 sm3:leading-height36">
+			<div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 2lg:col-start-1 2lg:col-end-8 font-sans not-italic text-left tracking-normal text-small12 md:text-lg lg:text-xl sm2:text-f24 leading-4 md:leading-6 lg:leading-8 2lg:leading-7 sm2:leading-8 sm3:leading-height36">
 				<p className="mb-1.5 md:mb-3b lg:mb-3b sm2:mb-4 sm3:mb-4b">For information & booking you can contact us on:</p>
 				
 				<div className="mb-4 md:mb-8 sm2:mb-6 sm3:mb-6b leading-3">
