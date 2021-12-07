@@ -18,8 +18,10 @@ function App() {
   return (
     <Routing>
       <div className="h-full flex flex-col">
-        <Header />
-        <div className="flex-1-0-auto">
+        <div className="max-w-screen-sm3 w-full m-auto">
+          <Header />
+        </div>
+        <div className="flex-1-0-auto max-w-screen-sm3 m-auto">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/rooms" element={<Rooms />} />
@@ -32,7 +34,11 @@ function App() {
             <Route path="/viola" element={<Viola />} />
           </Routes>
         </div>
-        <Footer />
+        <div className="bg-22_green w-full mt-4 md:mt-4d lg:mt-5c 2lg:mt-5 sm3:mt-6">
+          <div className="max-w-screen-sm3 m-auto">
+            <Footer />
+          </div>
+        </div>
       </div>
     </Routing>
 

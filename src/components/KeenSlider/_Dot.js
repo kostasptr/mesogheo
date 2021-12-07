@@ -17,7 +17,7 @@ const Dot = ({ active, onClick }) => {
   if (intViewportWidth<1024){
     return active ? (
       <DotActiveImg
-        className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColor}`}
+        className={`cursor-pointer w-2.5 md:w-3b ${textColor}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
@@ -25,7 +25,7 @@ const Dot = ({ active, onClick }) => {
       />
     ) : (
       <DotImg
-        className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColor}`}
+        className={`cursor-pointer w-2.5 md:w-3b ${textColor}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
@@ -35,7 +35,7 @@ const Dot = ({ active, onClick }) => {
   }
     return active ? (
       <DotActiveImg
-        className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColorWide}`}
+        className={`cursor-pointer w-2.5 md:w-3b ${textColorWide}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
@@ -43,7 +43,7 @@ const Dot = ({ active, onClick }) => {
       />
     ) : (
       <DotImg
-        className={`cursor-pointer w-2.5 md:w-3 lg:w-4 ${textColorWide}`}
+        className={`cursor-pointer w-2.5 md:w-3b ${textColorWide}`}
         onClick={onClick}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}

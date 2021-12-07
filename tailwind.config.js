@@ -85,6 +85,7 @@ module.exports = {
         'f3.25': '3.25rem',
         'f3.625': '3.625rem',
         'f4': '4rem',
+        'f4.625': '4.625rem',
         'f5': '5rem'
       },
       lineHeight: {
@@ -92,7 +93,11 @@ module.exports = {
         'smallf': '.823rem',
         'small144': '.9rem',
         'smallfs': '.96rem',
+        'height18': '1.125rem',
+        'height24': '1.5rem',
         'height28': '1.75rem',
+        'height30': '1.875rem',
+        'height32': '2rem',
         'height36': '2.25rem',
         'height41': '2.563rem',
         'height44': '2.75rem',
