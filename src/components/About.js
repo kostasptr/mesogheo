@@ -4,7 +4,7 @@ const About = () => {
 	ScrollToTop();
   return (
     <div className="mesogheo-grid">
-			<div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 lg:col-start-4 lg:col-end-10 2lg:col-start-1 2lg:col-end-7 sm2:col-end-8 font-sans not-italic text-left tracking-normal text-small12 md:text-lg sm2:text-f24 leading-4 md:leading-6 sm2:leading-8 sm3:leading-height36">
+			<div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 lg:col-start-4 lg:col-end-10 2lg:col-start-1 2lg:col-end-7 font-sans not-italic text-left tracking-normal text-small12 md:text-lg sm2:text-xl sm3:text-2xl leading-4 md:leading-6 sm3:leading-height36">
 
 				<h3>About:</h3>
 				<p className="mb-2 md:mb-3b lg:mb-4c sm2:mb-4 sm3:mb-4b">Our goal at Mesogheo is to provide you an authentic experience of fresh tradition.<br />

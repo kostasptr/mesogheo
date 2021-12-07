@@ -33,7 +33,7 @@ const Footer = () => {
   return (
     <footer className="pt-4 md:pt-4d lg:pt-5c 2lg:pt-4d pb-3b md:pb-4d lg:pb-5c 2lg:pb-4d">
       <div className="mesogheo-grid flex-shrink-0 flex-column items-center">
-        <div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 2lg:col-start-1 2lg:col-end-7 mb-2 md:mb-3b lg:mb-4d 2lg:mb-0 font-serif text-small font-normal not-italic tracking-normal text-center 2lg:text-left text-92_green md:text-lg lg:text-lg 2lg:text-base sm2:text-xl sm3:text-small22 leading-4 md:leading-6 lg:leading-8 2lg:leading-height28 sm2:leading-8">
+        <div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 2lg:col-start-1 2lg:col-end-7 mb-2 md:mb-3b lg:mb-4d 2lg:mb-0 font-serif text-small font-normal not-italic tracking-normal text-center 2lg:text-left text-92_green md:text-lg lg:text-lg 2lg:text-base sm2:text-lg sm3:text-small22 leading-4 md:leading-6 lg:leading-8 2lg:leading-height28">
           
           <div className="mb-2 md:mb-3b lg:mb-4d 2lg:mb-1 leading-4.5"> 
             <Link ref={faqRef} to="/faq" className={faqTextColor} onMouseEnter={faqToggleHover} onMouseLeave={faqToggleHover} onTouchEnd={touchFAQ}>FAQ</Link>  
