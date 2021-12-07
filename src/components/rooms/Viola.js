@@ -1,54 +1,45 @@
 import ImagesDescRooms from '../_ImagesDescRooms';
-import viola_1 from '../../images/Viola/viola_1.jpg';
-import viola_2 from '../../images/Viola/viola_2.jpg';
-import viola_3 from '../../images/Viola/viola_3.jpg';
-import viola_4 from '../../images/Viola/viola_4.jpg';
-import viola_5 from '../../images/Viola/viola_5.jpg';
-import viola_6 from '../../images/Viola/viola_6.jpg';
-import viola_7 from '../../images/Viola/viola_7.jpg';
-import viola_8 from '../../images/Viola/viola_8.jpg';
-import viola_9 from '../../images/Viola/viola_9.jpg';
 import ScrollToTop from '../../helpers/ScrollToTop';
 
 const Viola = () => {
   const imagesArray = [
     [
       {
-        imgUrl: viola_1,
+        path: 'viola/1',
         alt: 'stylish soap holder of Viola room'
       },{
-        imgUrl: viola_2,
+        path: 'viola/2',
         alt: 'entrance of Viola room'
       }
     ],
     [{
-      imgUrl: viola_3,
+      path: 'viola/3',
       alt: 'inside space of Viola room'
     }],
     [{
-      imgUrl: viola_4,
+      path: 'viola/4',
       alt: 'loft bedroom of Viola room'
     }],
     [
       {
-        imgUrl: viola_5,
+        path: 'viola/5',
         alt: 'decorative wooden stair of Viola room'
       },{
-        imgUrl: viola_6,
+        path: 'viola/6',
         alt: 'overview with fireplace of Viola room'
       }
     ],
     [
       {
-        imgUrl: viola_7,
+        path: 'viola/7',
         alt: 'bathroom of Viola room'
       },{
-        imgUrl: viola_8,
+        path: 'viola/8',
         alt: 'double shower of Viola room'
       }
     ],
     [{
-      imgUrl: viola_9,
+      path: 'viola/9',
       alt: 'sunset outside of Viola room'
     }]
   ];

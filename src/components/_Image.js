@@ -1,21 +1,26 @@
-const Image = ({path, half = false, alt = "", classes = ""}) => {
-  const imagesWidths = [
+const Image = ({path, imagesWidths, sizes, alt = "", classes = ""}) => {
+  imagesWidths = imagesWidths || [
     360,
     768,
-    1024,
-    1440,
-    1920
+    682,
+    1080,
+    1184
   ];
   // Creates the following:
   // srcset="name@360.webp   360w,
+  //         name@682.webp   682w,
   //         name@768.webp   768w,
-  //         name@1024.webp  1024w,
-  //         name@1280.webp  1280w,
-  //         name@1440.webp  1440w,
-  //         name@1920.webp  1920w"
-  const srcsetWebp = imagesWidths.map((width) => `${require(`${path}/image@${width}.webp`).default} ${width}w`).join(",");
-  const srcsetJpg = imagesWidths.map((width) => `${require(`${path}/image@${width}.jpg`).default} ${width}w`).join(",");
-  const sizes = "(min-width: 1920px) 1920px, 100vw";
+  //         name@1280.webp  1080w,
+  //         name@1440.webp  1184w"
+  const srcsetWebp = imagesWidths.map((width) => `${require(`./images/${path}/image@${width}.webp`).default} ${width}w`).join(",");
+  const srcsetJpg = imagesWidths.map((width) => `${require(`./images/${path}/image@${width}.jpg`).default} ${width}w`).join(",");
+  sizes = sizes ||
+    `(max-width: 360px) 360px,
+    (max-width: 768px) 768px,
+    (max-width: 1152px) 768px,
+    (max-width: 1440px) 1080px,
+    (max-width: 1920px) 1184px,
+    1184px`;
   return (
     <picture>
       <source 
@@ -27,7 +32,7 @@ const Image = ({path, half = false, alt = "", classes = ""}) => {
       <img 
         srcSet={srcsetJpg}
         sizes={sizes}                       
-        src={`${path}/image@1280.jpg`} // fallback image
+        src={`./images/${path}/image@${imagesWidths.pop()}}.jpg`} // fallback image (the largest one)
         alt={alt}
         className={classes}
       />

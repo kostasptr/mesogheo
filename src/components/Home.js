@@ -4,7 +4,13 @@ import Image from './_Image';
 const Home = () => {
   return (
     <>
-      <Image path="./images/hero_image" alt="mesogheo hotel" classes="w-screen mb-1.5 md:mb-2 sm3:mb-2" />
+      <Image
+        path='hero_image'
+        imagesWidths={[360, 768, 1024, 1440, 1920]}
+        sizes="(min-width: 1920px) 1920px, 100vw"
+        alt='mesogheo hotel'
+        classes='w-screen mb-1.5 md:mb-2 sm3:mb-2'
+      />
 
       <div className="mesogheo-grid">
         <div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 lg:col-start-4 lg:col-end-10 mb-2 md:mb-3b lg:mb-4 font-sans text-02_green text-left not-italic font-light text-small12 md:text-lg lg:text-lg sm2:text-small22 sm3:text-f26 leading-4 md:leading-6 sm2:leading-8 sm3:leading-height36">

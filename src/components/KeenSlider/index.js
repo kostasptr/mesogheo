@@ -1,13 +1,14 @@
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import "./index.css";
 import { useLocation } from "react-router-dom";
+
+import Image from '../_Image';
 
 import {ReactComponent as ChevronLeft} from "../../images/carousel-navigation/chevron-left.svg";
 import {ReactComponent as ChevronRight} from "../../images/carousel-navigation/chevron-right.svg";
 import Dot from "./_Dot";
-
-import "./index.css";
 
 const KeenSlider = ({ imagesArray, title }) => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -18,6 +19,26 @@ const KeenSlider = ({ imagesArray, title }) => {
       setCurrentSlide(s.details().relativeSlide)
     },
   })
+
+  const ArrowsPressed = useCallback((event) => {
+    if (slider) {
+      // Left Arrow
+      if (event.keyCode === 37) {
+        slider.prev();
+      // Right Arrow
+      } else if (event.keyCode === 39) {
+        slider.next();
+      }
+    }
+  }, [slider]);
+
+  useEffect(() => {
+    document.addEventListener("keydown", ArrowsPressed, false);
+
+    return () => {
+      document.removeEventListener("keydown", ArrowsPressed, false);
+    };
+  }, [ArrowsPressed]);
 
   const pathname = useLocation().pathname;
   const isHome = pathname === "/";
@@ -37,11 +58,11 @@ const KeenSlider = ({ imagesArray, title }) => {
               {images.map(
                 (image, idx2) => {
                   return (
-                    <img
+                    <Image
                       key={idx2}
-                      src={image.imgUrl}
+                      path={image.path}
                       alt={image.alt}
-                      className={`${images.length === 1 ? 'w-full' : `w-1/${images.length}`} inline`}
+                      classes={`${images.length === 1 ? 'w-full' : `w-1/${images.length}`} inline`}
                     />
                   );
                 }
