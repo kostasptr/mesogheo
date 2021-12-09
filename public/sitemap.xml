@@ -5,38 +5,43 @@
     <priority>1.00</priority>
   </url>
   <url>
+    <loc>https://mesogheo.it/?/rooms</loc>
+    <lastmod>2021-10-29T21:33:27+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
     <loc>https://mesogheo.it/?/about</loc>
     <lastmod>2021-10-29T21:33:27+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>1.00</priority>
   </url>
   <url>
     <loc>https://mesogheo.it/?/book</loc>
     <lastmod>2021-10-29T21:33:27+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>1.00</priority>
   </url>
   <url>
     <loc>https://mesogheo.it/?/faq</loc>
     <lastmod>2021-10-29T21:33:27+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>1.00</priority>
   </url>
   <url>
     <loc>https://mesogheo.it/?/arizona</loc>
     <lastmod>2021-10-29T21:33:27+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>1.00</priority>
   </url>
   <url>
     <loc>https://mesogheo.it/?/blu</loc>
     <lastmod>2021-10-29T21:33:27+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>1.00</priority>
   </url>
   <url>
     <loc>https://mesogheo.it/?/viola</loc>
     <lastmod>2021-10-29T21:33:27+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>1.00</priority>
   </url>
   <url>
     <loc>https://mesogheo.it/?/verde</loc>
     <lastmod>2021-10-29T21:33:27+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>1.00</priority>
   </url>
 </urlset>
