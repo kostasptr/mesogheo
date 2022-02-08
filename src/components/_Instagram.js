@@ -12,12 +12,11 @@ export const Instagram = ({ accessToken, count }) => {
         })
         .then((data) => {
           if (data.hasOwnProperty("error")) {
-            setLoading(false);
             setError(true);
           } else {
             setInstagramData(data);
-            setLoading(false);
           }
+          setLoading(false);
         })
         .catch((error) => {
           console.error("Error:", error);
@@ -37,16 +36,14 @@ export const Instagram = ({ accessToken, count }) => {
 
   if (error) {
     return (
-      <p className="text-center">
-        Something went wrong with the Instagram photos.
-      </p>
+      <p className="text-center"></p>
     );
   }
 
   return (
     <div className="mesogheo-grid -mb-0.75 md:-mb-2 lg:-mb-3 sm2:-mb-3c sm3:-mb-4d">
       {instagramData.data
-        .filter((item) => {return item.media_type !== "VIDEO"})
+        .filter((item) => {return item.media_type !== "VIDEO" && item.media_type !== "CAROUSEL_ALBUM"})
         .slice(0, count)
         .map((item, index) => (
           <div key={index} className="col-span-4 mb-0.75 md:mb-2 lg:mb-3 sm2:mb-3c sm3:mb-4d">
