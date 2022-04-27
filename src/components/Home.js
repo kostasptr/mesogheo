@@ -20,7 +20,7 @@ const Home = () => {
         </div>
 
         <div className="col-span-full">
-          <Instagram accessToken="IGQVJVVGJySTFjQVBFdzRWRldvSkFSYmNua1M0RWxLcGx5dkJXYk5kNVdZAcFA4SFJDT1pLYm13TUNDejBHZAkIxR25paWVKRUxjYWJRMkhreHR2b1c0Q096YUhlcHBsZAFRKMWsybVVuMjRhWHJjbFZAuUQZDZD" count={6}/>
+          <Instagram accessToken="IGQVJWdmFYU1drbWFidWxNb2xZAU3VSUTFGREUxUG5tNGg4OVJuT0lPa0ZAuYzMyVS1pWG5ZARlI5OFY1MjBmeldHRDRhSGhCNmRwT1VtOXBBOEZAROXdneXpGZAjNMNjQ1YnRqWm9fbUpTMmR2ZATNTSlVsZAwZDZD" count={6}/>
         </div>
       </div>
     </>
