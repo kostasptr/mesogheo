@@ -26,7 +26,7 @@ export const Instagram = ({ accessToken, count }) => {
   };
 
   useEffect(() => {
-      const url = `https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url,caption&limit=10&access_token=${accessToken}`;
+      const url = `https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url,caption&limit=20&access_token=${accessToken}`;
       fetchInstagramData(url);
   }, [accessToken]);
 
