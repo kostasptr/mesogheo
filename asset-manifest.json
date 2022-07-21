@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2627e48.chunk.css",
-    "main.js": "/static/js/main.b1fd47f7.chunk.js",
-    "main.js.map": "/static/js/main.b1fd47f7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.259a76b9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.259a76b9.js.map",
-    "static/css/2.ce4ae040.chunk.css": "/static/css/2.ce4ae040.chunk.css",
-    "static/js/2.e518a952.chunk.js": "/static/js/2.e518a952.chunk.js",
-    "static/js/2.e518a952.chunk.js.map": "/static/js/2.e518a952.chunk.js.map",
-    "static/js/3.39aa2cb1.chunk.js": "/static/js/3.39aa2cb1.chunk.js",
-    "static/js/3.39aa2cb1.chunk.js.map": "/static/js/3.39aa2cb1.chunk.js.map",
+    "main.css": "/static/css/main.68dc0812.chunk.css",
+    "main.js": "/static/js/main.46f12550.chunk.js",
+    "main.js.map": "/static/js/main.46f12550.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.762428e5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.762428e5.js.map",
+    "static/css/2.2bab1ac0.chunk.css": "/static/css/2.2bab1ac0.chunk.css",
+    "static/js/2.10544a99.chunk.js": "/static/js/2.10544a99.chunk.js",
+    "static/js/2.10544a99.chunk.js.map": "/static/js/2.10544a99.chunk.js.map",
+    "static/js/3.1d9078e6.chunk.js": "/static/js/3.1d9078e6.chunk.js",
+    "static/js/3.1d9078e6.chunk.js.map": "/static/js/3.1d9078e6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.ce4ae040.chunk.css.map": "/static/css/2.ce4ae040.chunk.css.map",
-    "static/css/main.e2627e48.chunk.css.map": "/static/css/main.e2627e48.chunk.css.map",
-    "static/js/2.e518a952.chunk.js.LICENSE.txt": "/static/js/2.e518a952.chunk.js.LICENSE.txt",
+    "static/css/2.2bab1ac0.chunk.css.map": "/static/css/2.2bab1ac0.chunk.css.map",
+    "static/css/main.68dc0812.chunk.css.map": "/static/css/main.68dc0812.chunk.css.map",
+    "static/js/2.10544a99.chunk.js.LICENSE.txt": "/static/js/2.10544a99.chunk.js.LICENSE.txt",
     "static/media/air_conditioner.194dd544.svg": "/static/media/air_conditioner.194dd544.svg",
     "static/media/bath_tub.cfdc5550.svg": "/static/media/bath_tub.cfdc5550.svg",
     "static/media/breakfast.0761369e.svg": "/static/media/breakfast.0761369e.svg",
@@ -50,10 +50,10 @@
     "static/media/wifi.5b22529f.svg": "/static/media/wifi.5b22529f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.259a76b9.js",
-    "static/css/2.ce4ae040.chunk.css",
-    "static/js/2.e518a952.chunk.js",
-    "static/css/main.e2627e48.chunk.css",
-    "static/js/main.b1fd47f7.chunk.js"
+    "static/js/runtime-main.762428e5.js",
+    "static/css/2.2bab1ac0.chunk.css",
+    "static/js/2.10544a99.chunk.js",
+    "static/css/main.68dc0812.chunk.css",
+    "static/js/main.46f12550.chunk.js"
   ]
 }
