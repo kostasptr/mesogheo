@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const Instagram = ({ accessToken, count }) => {
+export const Instagram = ({ accessToken1, accessToken2, accessToken3, count }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [instagramData, setInstagramData] = useState(null);
@@ -26,9 +26,9 @@ export const Instagram = ({ accessToken, count }) => {
   };
 
   useEffect(() => {
-      const url = `https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url,caption&limit=20&access_token=${accessToken}`;
+      const url = `https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url,caption&limit=20&access_token=${accessToken1+accessToken2+accessToken3}`;
       fetchInstagramData(url);
-  }, [accessToken]);
+  }, [accessToken1]);
 
   if (loading) {
     return <p className="text-center">Loading Instagram</p>;
