@@ -30,7 +30,7 @@ const Book = () => {
 					<p className="mb-2 md:mb-3b sm2:mb-4 sm3:mb-4b">VERDE LOFT / 140€</p>
 				</div> */}
 				<p className="mb-2 md:mb-3b lg:mb-4 sm3:mb-4b">
-					130€/160€ per night per room<br />
+					170€ per night per room<br />
 					Breakfast included in your booking
 				</p>
 				<p className="mb-2 md:mb-3b lg:mb-4 sm3:mb-4b">
