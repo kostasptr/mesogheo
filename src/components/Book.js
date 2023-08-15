@@ -12,10 +12,10 @@ const Book = () => {
 				
 				<div className="mb-4 leading-3 md:mb-8 sm2:mb-6 sm3:mb-4b">
 					<p className="mb-2 md:mb-3b 2lg:mb-4c sm2:mb-4 sm3:mb-4b">
-						<a href="https://wa.me/393887842886" target="_blank" rel="noopener noreferrer">WhatsApp: <HoverPink text={"+39 3887842886"} /></a>
+						<a href="https://wa.me/393391591396" target="_blank" rel="noopener noreferrer">WhatsApp: <HoverPink text={"+39 339 15 91 396"} /></a>
 					</p>
 					<p className="mb-2 md:mb-3b 2lg:mb-4c sm2:mb-4 sm3:mb-4b">
-						<a href="tel:+393887842886" target="_blank" rel="noopener noreferrer">Phone number: <HoverPink text={"+39 3887842886"} /></a>
+						<a href="tel:+393391591396" target="_blank" rel="noopener noreferrer">Phone number: <HoverPink text={"+39 339 15 91 396"} /></a>
 					</p>
 					<p>
 						<a href="mailto: mesogheo@googlemail.com" target="_blank" rel="noopener noreferrer" >E-mail: <HoverPink text={"mesogheo@googlemail.com"} /></a>
