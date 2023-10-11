@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { Link } from "react-router-dom";
-import {ReactComponent as FacebookIcon} from "../images/logo-facebook.svg";
+// import {ReactComponent as FacebookIcon} from "../images/logo-facebook.svg";
 import {ReactComponent as InstagramIcon} from "../images/logo-instagram.svg";
 
 const Footer = () => {
@@ -50,9 +50,9 @@ const Footer = () => {
           <a href="https://www.instagram.com/mesogheo/" target="_blank" rel="noopener noreferrer" className={`w-3a md:w-5b2 lg:w-5e 2lg:w-5c sm2:w-5e 2lg:mr-3 ${inTextColor}`}  ref={inRef} onMouseEnter={inToggleHover} onMouseLeave={inToggleHover} onTouchEnd={touchIn}>
             <InstagramIcon />
           </a>
-          <a href="https://www.facebook.com/Mesogheo" target="_blank" rel="noopener noreferrer" className={`w-3a md:w-5b2 lg:w-5e 2lg:w-5c sm2:w-5e ${fbTextColor}`}  ref={fbRef} onMouseEnter={fbToggleHover} onMouseLeave={fbToggleHover} onTouchEnd={touchFb}>
+          {/* <a href="https://www.facebook.com/Mesogheo" target="_blank" rel="noopener noreferrer" className={`w-3a md:w-5b2 lg:w-5e 2lg:w-5c sm2:w-5e ${fbTextColor}`}  ref={fbRef} onMouseEnter={fbToggleHover} onMouseLeave={fbToggleHover} onTouchEnd={touchFb}>
             <FacebookIcon />
-          </a>
+          </a> */}
         </div>
       </div>
 
