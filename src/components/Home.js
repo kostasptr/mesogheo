@@ -21,9 +21,9 @@ const Home = () => {
 
         <div className="col-span-full">
           <Instagram
-            accessToken1="IGQVJYaHRqQXdlT3hQb3RlQkV1WmFQejhZAcEQyV3VJbVIxSTY5WEZ"
-            accessToken2="ABOXdYWnpKSVNGUjIyUF91Wm9jNkg2bWZAKNFdhWTdGR3g3RmJ6SW9"
-            accessToken3="ka2o3UVU0cTZAHYVAwOFMwUmtmRURmejFn"
+            accessToken1="IGQWROTHA1WS1sUXI4UEFuR1lWSXdvaU9YVFktNWFVZAFc3UkJzdmRhd"
+            accessToken2="jA2SFdPalQ4UjFPZA1k4MFJYNWoyQTFCenhkUHI3S2N3OFZAaNndHd0Z"
+            accessToken3="AMT21sTzJFVUJlX00xSU9ZARFduRlo5UWVNR0oxYWlBd2RaSWM3Yk0ZD"
             count={6}
           />
         </div>
