@@ -49,7 +49,7 @@ const KeenSlider = ({ imagesArray, title }) => {
   return (
     <div className="col-span-full sm2:relative" id={isHome ? "rooms" : ''}>
       <div className="navigation-wrapper text-92_green text-opacity-60">
-        <div ref={sliderRef} className="keen-slider w-full">
+        <div ref={sliderRef} className="w-full keen-slider">
           {imagesArray.map((images, idx) => (
             <figure
               key={idx}
@@ -81,18 +81,18 @@ const KeenSlider = ({ imagesArray, title }) => {
         {slider && (
           <div className="hidden 2lg:block">
             <ChevronLeft
-              className="absolute top-1/2 left-2 sm3:left-3a transform -translate-y-1/2 h-9 sm2:h-5e sm3:h-60"
+              className="absolute transform -translate-y-1/2 top-1/2 left-2 sm3:left-3a h-9 sm2:h-5e sm3:h-60"
               onClick={(e) => e.stopPropagation() || slider.prev()}
             />
             <ChevronRight
-              className="absolute top-1/2 right-2 sm3:right-3a transform -translate-y-1/2 h-9 sm2:h-5e sm3:h-60"
+              className="absolute transform -translate-y-1/2 top-1/2 right-2 sm3:right-3a h-9 sm2:h-5e sm3:h-60"
               onClick={(e) => e.stopPropagation() || slider.next()}
             />
           </div>
         )}
         {slider && (
           <div className="flex justify-center space-x-0.5 md:space-x-1.5 absolute z-10 bottom-2 -inset-x-full h-2.5 md:h-3b">
-            {[...Array(slider.details().size).keys()].map((idx) => {
+          {[...Array(slider.size).keys()].map((idx) => {
               return <Dot
                         active={currentSlide === idx} key={idx} 
                         onClick={() => {

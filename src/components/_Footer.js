@@ -5,18 +5,18 @@ import {ReactComponent as InstagramIcon} from "../images/logo-instagram.svg";
 
 const Footer = () => {
   const [isInHovered, setInHovered] = useState(false);
-  const [isFbHovered, setFbHovered] = useState(false);
+  // const [isFbHovered, setFbHovered] = useState(false);
   const [isFAQHovered, setFAQHovered] = useState(false);
   const inTextColor = isInHovered ? "text-pink" : "text-92_green";
-  const fbTextColor = isFbHovered ? "text-pink" : "text-92_green";
+  // const fbTextColor = isFbHovered ? "text-pink" : "text-92_green";
   const faqTextColor = isFAQHovered ? "text-pink" : "text-92_green";
   const inToggleHover = () => setInHovered(!isInHovered);
-  const fbToggleHover = () => setFbHovered(!isFbHovered);
+  // const fbToggleHover = () => setFbHovered(!isFbHovered);
   const faqToggleHover = () => setFAQHovered(!isFAQHovered);
   
   const faqRef = useRef(null);
   const inRef = useRef(null);
-  const fbRef = useRef(null);
+  // const fbRef = useRef(null);
   const touchFAQ = (e) => {
     e.preventDefault();
     faqRef.current.click();
@@ -25,10 +25,10 @@ const Footer = () => {
     e.preventDefault();
     inRef.current.click();
   }
-  const touchFb = (e) => {
-    e.preventDefault();
-    fbRef.current.click();
-  }
+  // const touchFb = (e) => {
+  //   e.preventDefault();
+  //   fbRef.current.click();
+  // }
 
   return (
     <footer className="pt-4 md:pt-4d lg:pt-5c 2lg:pt-4d pb-3b md:pb-4d lg:pb-5c 2lg:pb-4d">
