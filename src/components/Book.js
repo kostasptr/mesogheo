@@ -22,24 +22,29 @@ const Book = () => {
 					</p>
 				</div>
 				
-				<h3 className="mb-1.5 sm3:mb-4b">Pricelist:</h3>
+				{/* <h3 className="mb-1.5 sm3:mb-4b">Pricelist:</h3> */}
 				{/* <div className="md:leading-height24 2lg:leading-height28">
 					<p className="mb-2 md:mb-3b sm2:mb-4 sm3:mb-4b">ARIZONA ROOM / 120€</p>
 					<p className="mb-2 md:mb-3b sm2:mb-4 sm3:mb-4b">VIOLA LOFT / 140€</p>
 					<p className="mb-2 md:mb-3b sm2:mb-4 sm3:mb-4b">BLU ROOM / 120€</p>				
 					<p className="mb-2 md:mb-3b sm2:mb-4 sm3:mb-4b">VERDE LOFT / 140€</p>
 				</div> */}
-				<p className="mb-2 md:mb-3b lg:mb-4 sm3:mb-4b">
+				{/* <p className="mb-2 md:mb-3b lg:mb-4 sm3:mb-4b">
 					170€ per night per room<br />
 					Breakfast included in your booking
+				</p> */}
+				<h3 className="mb-1.5 sm3:mb-4b">Information:</h3>
+				<p className="mb-2 md:mb-3b lg:mb-4 sm3:mb-4b">
+					Breakfast included in your booking<br />
+					Call us for a price request
 				</p>
 				<p className="mb-2 md:mb-3b lg:mb-4 sm3:mb-4b">
 					Check in from 15.00 to 20.00<br />
 					Check out until 12.00
 				</p>
-				<p className="mb-2 md:mb-3b lg:mb-4 sm3:mb-4b">
+				{/* <p className="mb-2 md:mb-3b lg:mb-4 sm3:mb-4b">
 					Prices are subject to change<br />upon availability - low/high season
-				</p>
+				</p> */}
 				<p>for more information visit our <Link to="/faq"><span className="italic">FAQ</span></Link> page</p>
 			</div>
 		</div>
